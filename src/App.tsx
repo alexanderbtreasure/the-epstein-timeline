@@ -1,118 +1,215 @@
-import './App.css'
-import data from '../data/data.json'
+import './App.css';
+import { useState, useEffect } from 'react';
 
-type Milestone = {
-  date: string
-  description: string
-  headline: string
-  img?: string
-  info?: Array<any>
-  sources?: string[]
-  tags?: string[]
-  type: string
+interface Milestone {
+  date: string;
+  description: string;
+  headline: string;
+  img?: string;
+  info?: {
+    description: string;
+    note: string;
+    source: string;
+  }[];
+  sources: string[];
+  tags: string[];
+  type: string;
 }
 
-function App() {
-  const milestones: Milestone[] = (data as any).milestones || []
+const imageModules = import.meta.glob<{ default: string }>(
+  './assets/images/*',
+  { eager: true }
+);
+
+const getImageUrl = (imageName: string): string => {
+  if (!imageName) return '';
+  const modulePath = `./assets/images/${imageName}`;
+  return imageModules[modulePath]?.default ?? '';
+};
+
+const localeModules: Record<string, Record<string, { default: Milestone }>> = {
+  'en-US': import.meta.glob<{ default: Milestone }>(
+    '../data/milestones/en-US/*.json',
+    { eager: true }
+  ),
+};
+
+const loadLocalizedMilestones = (): Milestone[] => {
+  const browserLocale = navigator.language || 'en-US';
+  console.log('Browser locale:', browserLocale);
+  const locales = [browserLocale, browserLocale.split('-')[0], 'en-US'];
+
+  for (const locale of locales) {
+    const modules = localeModules[locale];
+    if (!modules) continue;
+
+    const allMilestones: Milestone[] = Object.values(modules)
+      .filter(module => module.default)
+      .map(module => module.default);
+
+    if (allMilestones.length > 0) {
+      console.log(`Loaded ${allMilestones.length} milestones for locale: ${locale}`);
+      return allMilestones;
+    }
+  }
+
+  console.warn('No milestones loaded');
+  return [];
+};
+
+const App = () => {
+  const [milestones] = useState<Milestone[]>(() => loadLocalizedMilestones());
+  const [searchTag, setSearchTag] = useState<string>('');
+
+  // Extract all unique tags for autocomplete
+  const allTags = [...new Set(milestones.flatMap(m => m.tags))].sort();
 
   const sorted = [...milestones].sort((a, b) => {
-    const da = a.date || ''
-    const db = b.date || ''
-    return db.localeCompare(da)
-  })
+    const dateA = a.date || '';
+    const dateB = b.date || '';
+    return dateB.localeCompare(dateA);
+  });
 
-  const grouped = sorted.reduce((acc: Record<string, Milestone[]>, m) => {
-    const year = m.date ? m.date.slice(0, 4) : 'Unknown'
-    if (!acc[year]) acc[year] = []
-    acc[year].push(m)
-    return acc
-  }, {})
+  // Filter milestones based on search tag
+  const filtered = searchTag
+    ? sorted.filter(milestone =>
+        milestone.tags.some(tag => tag.toLowerCase().includes(searchTag.toLowerCase()))
+      )
+    : sorted;
 
-  const years = Object.keys(grouped).sort((a, b) => b.localeCompare(a))
+  const grouped = filtered.reduce<Record<string, Milestone[]>>((acc, milestone) => {
+    const year = milestone.date ? milestone.date.slice(0, 4) : 'Unknown';
+    if (!acc[year]) acc[year] = [];
+    acc[year].push(milestone);
+    return acc;
+  }, {});
+
+  const years = Object.keys(grouped).sort((a, b) => b.localeCompare(a));
 
   return (
-      <div className="App drawer lg:drawer-open">
-        <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-content">
-          {/* Navbar */}
-          <nav className="navbar w-full bg-base-300">
-            <label htmlFor="my-drawer-4" aria-label="open sidebar" className="btn btn-square btn-ghost">
-              {/* Sidebar toggle icon */}
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="none" stroke="currentColor" className="my-1.5 inline-block size-4"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M9 4v16"></path><path d="M14 10l2 2l-2 2"></path></svg>
-            </label>
-            <div className="px-4">The Epstein Timeline</div>
-          </nav>
-          {years.map((year) => (
-            <section key={year} style={{ marginBottom: 28 }}>
-              <h2>{year}</h2>
-              <ul className="timeline timeline-vertical" style={{ textAlign: "left" }}>
-                {grouped[year].map((m, idx) => (
-                  <li key={`${m.date}-${idx}`} >
-                    { /*<li key={`${m.date}-${idx}`} style={{ display: "flex", flex: 0.5 }}> */}
-                    {(idx !== 0) ? <hr /> : null} {/* Add a vertical timeline connector before each item except the first */}
-                    <div className="timeline-start">{m.date}</div>
-                    {renderTimelineBullet()}
-                    <div className="timeline-end timeline-box card card-side shadow-xl">
-                      <div className="card-body">
-                        <h2 className="card-title">{m.headline}</h2>
-                        <p>{m.description}</p>
-                        {m?.img ? <figure><img src={m.img} alt={m.headline} /></figure> : null}
-                        <ul>
-                          {m.info?.map((item, idx) => (
-                            <div>
-                              <br />
-                              <li key={idx}>
-                                {item.description}
-                                <br />
-                                <em><a href={item.source}>{item.note}</a></em>
-                              </li>
-                            </div>
-                          ))}
-                        </ul>
-                      </div>
-                    </div>
-                    {(idx !== grouped[year].length - 1) ? <hr /> : null} {/* Add a vertical timeline connector after each item except the last */}
-                  </li>
-                ))}
-              </ul>
-            </section>
-          ))}
-        </div>
-
-        <div className="drawer-side is-drawer-close:overflow-visible">
-          <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
-          <div className="flex min-h-full flex-col items-start bg-base-200 is-drawer-close:w-14 is-drawer-open:w-64">
-            {/* Sidebar content here */}
-            <ul className="menu w-full grow">
-              {/* List item */}
-              <li>
-                <button className="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Homepage">
-                  {/* Home icon */}
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="none" stroke="currentColor" className="my-1.5 inline-block size-4"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
-                  <span className="is-drawer-close:hidden">Homepage</span>
-                </button>
-              </li>
-
-              {/* List item */}
-              <li>
-                <button className="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Settings">
-                  {/* Settings icon */}
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="none" stroke="currentColor" className="my-1.5 inline-block size-4"><path d="M20 7h-9"></path><path d="M14 17H5"></path><circle cx="17" cy="17" r="3"></circle><circle cx="7" cy="7" r="3"></circle></svg>
-                  <span className="is-drawer-close:hidden">Settings</span>
-                </button>
-              </li>
-            </ul>
+    <div>
+      <nav className="navbar w-full bg-base-300 shadow-sm">
+        <div className="px-4 flex-1">The Epstein Timeline</div>
+        <div className="flex-none flex gap-2">
+          <div className="form-control">
+            <input
+              type="text"
+              placeholder="Search by tag..."
+              className="input input-bordered w-full max-w-xs"
+              list="tags-datalist"
+              value={searchTag}
+              onChange={(e) => setSearchTag(e.target.value)}
+            />
+            <datalist id="tags-datalist">
+              {allTags.map((tag) => (
+                <option key={tag} value={tag} />
+              ))}
+            </datalist>
           </div>
+          <ThemeController />
         </div>
-      </div>
-  )
-}
+      </nav>
+      {years.map((year) => (
+        <section key={year} style={{ marginBottom: 28 }}>
+          <h2 style={{ textAlign: "center" }}>{year}</h2>
+          <ul className="timeline timeline-vertical" style={{ textAlign: "left" }}>
+            {grouped[year].map((milestone, idx) => (
+              <li key={`${milestone.date}-${idx}`} style={{ gridTemplateColumns: "10% 2% 88%" }}>
+                {idx !== 0 && <hr />}
+                <div className="timeline-start">{milestone.date}</div>
+                <TimelineBullet />
+                <div
+                  className="timeline-end timeline-box card lg:card-side shadow-xl"
+                  style={{ width: "95%", opacity: milestone.type === "major" ? 1 : 0.75 }}
+                >
+                  {milestone.img && (
+                    <figure>
+                      <img
+                        src={getImageUrl(milestone.img)}
+                        alt={milestone.headline}
+                        style={{ width: "100%", height: "auto" }}
+                      />
+                    </figure>
+                  )}
+                  <div className="card-body">
+                    <h2 id={milestone.date} className="card-title">{milestone.headline}</h2>
+                    <p style={{ whiteSpace: "pre-wrap" }}>{milestone.description}</p>
+                    <hr />
+                    <ul>
+                      {milestone.info?.map((item, itemIdx) => (
+                        <div key={itemIdx}>
+                          <br />
+                          <li>
+                            {item.description}
+                            <br />
+                            <em>
+                              <a
+                                href={item.source}
+                                target={item.source && !item.source.startsWith("http://localhost") ? "_blank" : "_self"}
+                                rel={item.source && !item.source.startsWith("http://localhost") ? "noopener noreferrer" : undefined}
+                                style={{ whiteSpace: "pre-wrap" }}
+                              >
+                                {item.note}
+                              </a>
+                            </em>
+                          </li>
+                        </div>
+                      ))}
+                    </ul>
+                    <h3>Primary sources:</h3>
+                    <div className="card-actions">
+                      <ul className="menu bg-base-200 rounded-box">
+                        {milestone.sources?.map((source, sourceIdx) => (
+                          <li key={sourceIdx}>
+                            <a
+                              href={source}
+                              target={source && !source.startsWith("http://localhost") ? "_blank" : "_self"}
+                              rel={source && !source.startsWith("http://localhost") ? "noopener noreferrer" : undefined}
+                            >
+                              {source}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                {idx !== grouped[year].length - 1 && <hr />}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+      <Footer />
+    </div>
+  );
+};
 
-function renderThemeController() {
+const ThemeController = () => {
+  const [theme, setTheme] = useState<'light' | 'dark'>(() => {
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    return prefersDark ? 'dark' : 'light';
+  });
+
+  // Set initial theme on mount
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+  };
+
   return (
     <label className="swap swap-rotate">
       {/* this hidden checkbox controls the state */}
-      <input type="checkbox" className="theme-controller" value="dark" />
+      <input
+        type="checkbox"
+        className="theme-controller"
+        checked={theme === 'dark'}
+        onChange={toggleTheme}
+      />
 
       {/* sun icon */}
       <svg
@@ -133,9 +230,9 @@ function renderThemeController() {
       </svg>
     </label>
   );
-}
+};
 
-function renderTimelineBullet() {
+const TimelineBullet = () => {
   return (
     <div className="timeline-middle">
       <svg
@@ -152,6 +249,18 @@ function renderTimelineBullet() {
       </svg>
     </div>
   );
-}
+};
 
-export default App
+const Footer = () => {
+  return (
+    <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
+      <aside>
+        <p>
+          Website copyright © 2026 <a className="link link-hover" href="https://alexanderbtreasure.github.io/" target="_blank">Alexander Treasure</a>. All images used are procured from public government sources and are therefore public domain, or are otherwise used with permission. Website code/content made available under <a className="link link-hover" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND</a>.
+        </p>
+      </aside>
+    </footer>
+  );
+};
+
+export default App;
