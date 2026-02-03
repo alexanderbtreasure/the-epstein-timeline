@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@theme {
+  --daisyui-themes: light, dark;
+}
+
 #root {
   max-width: 100%;
   margin: 0 auto;
