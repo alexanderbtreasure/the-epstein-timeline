@@ -74,20 +74,20 @@ Example sources can be found below:
 * Government/government-backed neutral media: C-SPAN, PBS, NPR
 * News wires: AP News, Reuters
 
-> ![TIP]
+> [!TIP]
 > Prioritize direct sources of information over indirect. This is so visitors can click the link and immediately validate the referred item, without needing to filter that information through whatever lens the indirect source is giving. This means in particular, for Youtube, link the timestamp where the quote is referenced. No timestamp is needed if the data point is the whole video. This also includes if a potetial source references, for example, an AP News report, then the AP News report should be cited directly.
 
 *Potential sources:*
 * Original reporting: Politico, The Guardian, The New York Times, etc.
 
-> ![TIP]
+> [!TIP]
 > If a potential source is the original source of that information (e.g. birthday card from Trump to Epstein), then it *needs* cited appropriately as the originating source. If the original source is external (e.g. AP News's Bureau of Prisons FOIA request) but initiated by that entity, the entity needs to be credited but does not necessarily need to be cited.
 
 *Never acceptable sources (unless the primary source of a quote, e.g. an interview hosted only on that source's Youtube channel):*
 * Editorialized content: Fox News, CNN, Newsmaxx
 * Commentary: talk shows, reaction videos, speculative podcasts
 
-> ![TIP]
+> [!TIP]
 > What pundits say about events isn't useful for this site. What celebrities say is similarly not useful. Stick to the people either directly implicated at least in part by the files (Trump, Clinton, Gates, etc.) or in authority over some part of the case (Patel, Bondi, further back like Alexander Acosta). This means, using EFTA and Congress for an example, that only the Chamber Leaders (Speaker/VP/President pro tempore, Majority/Minority Leaders, Majority/Minority Whips), and bill co-authors (Reps. Ro Khanna and Thomas Massie) are relevant sources of information.
 
 ### Tagging information guidelines
@@ -106,7 +106,7 @@ For the sake of accuracy, please do not use AI with the aim of content creation.
 
 ### Contribution copyrights
 
-Any contributions are protected under CC BY-NC-ND (i.e., attribution required, content cannot be used commercially or modified from source).
+Any contributions are protected under [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en) (i.e., attribution required, content cannot be used commercially or modified from source).
 
 ### Citation
 
