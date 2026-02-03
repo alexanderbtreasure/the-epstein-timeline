@@ -1,24 +1,20 @@
 {
-    "milestones": [
+    "date": "",
+    "description": "",
+    "headline": "",
+    "img": "",
+    "info": [
         {
-            "date": "",
             "description": "",
-            "headline": "",
-            "img": "",
-            "info": [
-                {
-                    "description": "",
-                    "note": "",
-                    "source": ""
-                }
-            ],
-            "sources": [
-                ""
-            ], 
-            "tags": [
-                ""
-            ],
-            "type": ""
+            "note": "",
+            "source": ""
         }
-    ]
+    ],
+    "sources": [
+        ""
+    ],
+    "tags": [
+        ""
+    ],
+    "type": ""
 }
