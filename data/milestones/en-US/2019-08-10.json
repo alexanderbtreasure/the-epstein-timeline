@@ -1,0 +1,20 @@
+{
+    "date": "2019-08-10",
+    "description": "Despite having been previously put on suicide watch, Jeffrey Epstein was found dead in his jail cell pending trial on August 10, 2019. The official cause of death was ruled as suicide by hanging.",
+    "headline": "Jeffrey Epstein Found Dead in Jail Cell",
+    "info": [
+        {
+            "description": "The same day, Attorney General William P. Barr issued a statement regarding Epstein's death.",
+            "note": "AG Barr consulted with the Inspector General (Michael Horowitz), to open an investigation into the circumstances surrounding Epstein's death.",
+            "source": "https://www.justice.gov/archives/opa/pr/statement-attorney-general-william-p-barr-death-jeffrey-epstein"
+        }
+    ],
+    "sources": [
+        "https://www.reuters.com/article/world/disgraced-money-manager-jeffrey-epstein-dead-in-apparent-suicide-idUSKCN1V00GZ/"
+    ],
+    "tags": [
+        "Jeffrey Epstein",
+        "Bill Barr"
+    ],
+    "type": "major"
+}
