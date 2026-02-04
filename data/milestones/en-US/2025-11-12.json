@@ -5,7 +5,12 @@
     "info": [
         {
             "description": "One email from Jeffrey's Epstein's brother, Mark, to Jeffrey in 2018, has been a source of rampant speculation. That email reads: \"Ask him [Bannon] if Putin has the photos of Trump blowing Bubba?\"",
-            "note": "The \"Bubba\" mentioned in the email is the main source of speculation. \"Bubba\" is a nickname for former president William (Bill) Clinton from his campaigning days in the early 90s. Mark has clarified that the \"Bubba\" in the email does not refer to Bill Clinton. Speculation occurred also that \"Bubba\" was the name of one of Ghislaine Maxwell's horses, but this is unconfirmed information. It is not currently known who the email might be referring to.",
+            "note": "The \"Bubba\" mentioned in the email is the main source of speculation. \"Bubba\" is a nickname for former president William (Bill) Clinton from his campaigning days in the early 90s.  Speculation occurred also that \"Bubba\" was the name of one of Ghislaine Maxwell's horses, but this is unconfirmed information. It is not currently known who the email might be referring to. This same email was later included in the Epstein Files Transparency Act document dump.",
+            "source": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00856374.pdf"
+        },
+        {
+            "description": "Mark has clarified that the \"Bubba\" in that email does not refer to Bill Clinton.",
+            "note": "He insisted that, \"they were simply part of a humorous private exchange between two brothers and were never meant for public release or to be interpreted as serious remarks,\" and that, \"for the avoidance of doubt, the reference to 'Bubba' in this correspondence is not, in any way, a reference to former President Bill Clinton.\"",
             "source": "https://www.advocate.com/politics/mark-epstein-bubba-not-clinton"
         }
     ],
