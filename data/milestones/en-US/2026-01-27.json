@@ -1,0 +1,22 @@
+{
+    "date": "2026-01-27",
+    "description": "Two House Reports were delivered to the full House of Representatives detailing the findings and recommendations of the US House Oversight Committee regarding contempt of Congress proceedings against Bill and Hillary Clinton.",
+    "headline": "US House Oversight Committee Delivers Contempt of Congress Reports Against Bill and Hillary Clinton",
+    "info": [
+        {
+            "description": "This is the next step in the process of contempt of Congress proceedings.",
+            "note": "This event follows the US House Oversight Committee's roll call votes on January 21, 2026, to initiate contempt of Congress proceedings against Bill and Hillary Clinton for their refusal to comply with subpoenas issued by the committee.",
+            "source": "http://localhost:5173#2026-01-21%2010:00%20EST"
+        }
+    ],
+    "sources": [
+        "https://www.congress.gov/committee-report/119th-congress/house-report/468/1",
+        "https://www.congress.gov/committee-report/119th-congress/house-report/469/1"
+    ],
+    "tags": [
+        "Bill Clinton",
+        "Hillary Clinton",
+        "US House Oversight Committee"
+    ],
+    "type": "minor"
+}
