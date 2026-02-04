@@ -1,0 +1,21 @@
+{
+    "date": "2026-01-21 10:00 EST",
+    "description": "A House Committee Markup took roll call votes to initiate contempt of Congress proceedings against Bill and Hillary Clinton for their refusal to comply with subpoenas issued by the US House Oversight Committee. This follows a long back-and-forth between both parties in negotiation for testifying at the Capitol.",
+    "headline": "US House Oversight Committee Votes to Initiate Contempt of Congress Proceedings Against Bill and Hillary Clinton",
+    "info": [
+        {
+            "description": "The House Oversight Committee released a statement the same day, giving some background into the Clintons' subpeonas as well as a statement by Chariman James Comer.",
+            "note": "From Rep. Comer, \"Republicans and Democrats on the House Oversight Committee acted today to hold former President Bill Clinton and former Secretary of State Hillary Clinton in contempt of Congress for willfully defying lawful and bipartisan subpoenas. By voting to hold the Clintons in contempt, the Committee sent a clear message: no one is above the law, and justice must be applied equally—regardless of position, pedigree, or prestige. These bipartisan subpoenas for the Clintons were approved unanimously and issued more than five months ago as part of the Committee’s investigation into Jeffrey Epstein. The Clintons were legally required to appear and instead responded to our good-faith negotiations with defiance, delay, and obstruction. The Committee is taking the necessary steps to uphold Congress’s investigative authority and now urges the full House to act swiftly to hold the Clintons accountable.\"",
+            "source": "https://oversight.house.gov/release/oversight-committee-republicans-and-democrats-hold-bill-and-hillary-clinton-in-contempt-for-defying-lawful-subpoenas/"
+        }
+    ],
+    "sources": [
+        "https://www.congress.gov/event/119th-congress/house-event/118877"
+    ],
+    "tags": [
+        "Bill Clinton",
+        "Hillary Clinton",
+        "US House Oversight Committee"
+    ],
+    "type": "minor"
+}
