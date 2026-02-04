@@ -100,7 +100,7 @@ Types are used in the rendering of the site to help the user more easily find an
 
 ### AI usage guidelines
 
-For the sake of accuracy, please do not use AI with the aim of content creation. Templating/coding efforts can use AI as an assistant, but to maintain both accuracy and precision, content needs to be curated by humans. Quality over quantity. More simply, nothing AI-generated should reach human eyes on this site.
+For the sake of accuracy, please do not use AI with the aim of content creation. Templating/coding efforts can use AI as an assistant, but to maintain both accuracy and precision, content needs to be curated by humans. Quality over quantity. More simply, when in doubt, nothing AI-generated should reach human eyes on this site.
 
 ## Copyright information
 
@@ -114,4 +114,4 @@ For external individuals wanting to properly cite this collaborative effort, eit
 
 ### Questions
 
-Any further questions about copyright or citation can be had over in 
+Any further questions about copyright or citation can be had over in the discussions.
