@@ -1,0 +1,29 @@
+{
+    "date": "2025-11-19 10:02 EST",
+    "description": "This marks the second step of the passing of the Epstein Files Transparency Act, sending the bill to the desk of the President.",
+    "headline": "U.S. Senate Passes Epstein Files Transparency Act",
+    "img": "2025-11-19-01.webp",
+    "info": [
+        {
+            "description": "The Senate passed the act by unanimous consent.",
+            "note": "That is, the bill passed without needing to hold a vote, as none objected.",
+            "source": "https://www.congress.gov/congressional-record/volume-171/issue-195/senate-section/article/S8211-6"
+        },
+        {
+            "description": "House Speaker Mike Johnson expressed concern over the Senate's passing of the bill, despite voting for the bill one day prior.",
+            "note": "Speaker Johnson stated that he spoke with the President and felt the bill needed \"amendments.\" He did not substantially comment on whether or not he expected a Presidential veto.",
+            "source": "https://youtu.be/3XUT_6Rp2sk"
+        }
+    ],
+    "sources": [
+        "https://www.c-span.org/clip/us-senate/senate-unanimously-approves-bill-to-release-epstein-files-sends-it-to-presidents-desk/5180419",
+        "https://www.congress.gov/bill/119th-congress/house-bill/4405"
+    ],
+    "tags": [
+        "US Congress",
+        "US Senate",
+        "Mike Johnson",
+        "Epstein Files Transparency Act"
+    ],
+    "type": "major"
+}
