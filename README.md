@@ -39,6 +39,8 @@ If submitting new content, follow the outline in template.json and add it under.
 * Information revealed by an office in a press conference about an event (e.g. EFTA file release) should instead be relegated to the originating timeline bullet, with a note if it occurred on a different day.
 * Information previously unreported but directly related to a previous event (e.g. EFTA file dump revealing something new, but only gets reported on 5 days later should modify the EFTA bullet).
 
+There are edge cases. Ask if in doubt.
+
 > [!TIP]
 > Looking at existing content's format under `data/milestones/[locale]` provides a good example of how to format content.
 
