@@ -26,7 +26,7 @@ Challenges or questions concerning whether content is correct or correctly phras
 
 From here below is a styling guide for how to submit new content.
 
-If submitting new content, follow the outline in template.json and add it under..., and submit it as a pull request (PR) under a git branch titled `content/[timestamp]` (e.g. `content/2026-01-05`) with a request to merge to `development`.
+If submitting new content, follow the outline in `data/template.json` and add it to your local copy under `data/milestones/[locale]`, branch the content branch from `development` into `content/[timestamp]` (e.g. `content/2026-01-05`), and submit your update as a pull request (PR) with a request to merge to `content/[locale]` e.g. `content/en-US`.
 
 *What content is worth a new timeline bullet?*
 * Any new information released.
@@ -39,7 +39,7 @@ If submitting new content, follow the outline in template.json and add it under.
 * Information revealed by an office in a press conference about an event (e.g. EFTA file release) should instead be relegated to the originating timeline bullet, with a note if it occurred on a different day.
 * Information previously unreported but directly related to a previous event (e.g. EFTA file dump revealing something new, but only gets reported on 5 days later should modify the EFTA bullet).
 
-There are edge cases. Ask if in doubt.
+There are edge cases; ask if in doubt.
 
 > [!TIP]
 > Looking at existing content's format under `data/milestones/[locale]` provides a good example of how to format content.
