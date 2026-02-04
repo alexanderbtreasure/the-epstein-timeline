@@ -27,6 +27,13 @@ const getImageUrl = (imageName: string): string => {
   return imageModules[modulePath]?.default ?? '';
 };
 
+const getProductionUrl = (url: string): string => {
+  if (import.meta.env.PROD && url) {
+    return url.replace('http://localhost:5173', 'https://epsteintimeline.org');
+  }
+  return url;
+};
+
 const localeModules: Record<string, Record<string, { default: Milestone }>> = {
   'en-US': import.meta.glob<{ default: Milestone }>(
     '../data/milestones/en-US/*.json',
@@ -200,7 +207,7 @@ const App = () => {
                             <br />
                             <em>
                               <a
-                                href={item.source}
+                                href={getProductionUrl(item.source)}
                                 target={item.source && !item.source.startsWith("http://localhost") ? "_blank" : "_self"}
                                 rel={item.source && !item.source.startsWith("http://localhost") ? "noopener noreferrer" : undefined}
                                 style={{ whiteSpace: "pre-wrap" }}
@@ -218,11 +225,11 @@ const App = () => {
                         {milestone.sources?.map((source, sourceIdx) => (
                           <li key={sourceIdx}>
                             <a
-                              href={source}
+                              href={getProductionUrl(source)}
                               target={source && !source.startsWith("http://localhost") ? "_blank" : "_self"}
                               rel={source && !source.startsWith("http://localhost") ? "noopener noreferrer" : undefined}
                             >
-                              {source}
+                              {getProductionUrl(source)}
                             </a>
                           </li>
                         ))}
