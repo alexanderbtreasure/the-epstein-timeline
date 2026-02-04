@@ -60,6 +60,21 @@ const loadLocalizedMilestones = (): Milestone[] => {
 const App = () => {
   const [milestones] = useState<Milestone[]>(() => loadLocalizedMilestones());
   const [searchTag, setSearchTag] = useState<string>('');
+  const [hasConsented, setHasConsented] = useState<boolean>(() => {
+    // Check localStorage for previous consent
+    const stored = localStorage.getItem('ageVerificationConsent');
+    return stored === 'true';
+  });
+
+  const handleConsent = (consented: boolean) => {
+    if (consented) {
+      localStorage.setItem('ageVerificationConsent', 'true');
+      setHasConsented(true);
+    } else {
+      // Redirect to a safe page (e.g., Google)
+      window.location.href = 'https://www.google.com';
+    }
+  };
 
   // Extract all unique tags for autocomplete
   const allTags = [...new Set(milestones.flatMap(m => m.tags))].sort();
@@ -85,6 +100,47 @@ const App = () => {
   }, {});
 
   const years = Object.keys(grouped).sort((a, b) => b.localeCompare(a));
+
+  // Show consent modal if user hasn't consented
+  if (!hasConsented) {
+    return (
+      <div className="modal modal-open">
+        <div className="modal-box max-w-2xl">
+          <h2 className="font-bold text-2xl mb-4">Content Warning & Age Verification</h2>
+          <div className="py-4">
+            <p className="mb-4">
+              This website contains detailed information about sensitive topics including allegations of sexual abuse, trafficking, and other disturbing content related to the Jeffrey Epstein case.
+            </p>
+            <p className="mb-4">
+              The timeline presented here is compiled from public court documents, news reports, and other publicly available sources. This content is intended for educational and informational purposes.
+            </p>
+            <p className="mb-4 font-semibold">
+              By proceeding, you confirm that:
+            </p>
+            <ul className="list-disc list-inside mb-4 space-y-2">
+              <li>You are 18 years of age or older</li>
+              <li>You understand this content may be disturbing</li>
+              <li>You wish to view this material for informational purposes</li>
+            </ul>
+          </div>
+          <div className="modal-action">
+            <button
+              className="btn btn-error text-white"
+              onClick={() => handleConsent(false)}
+            >
+              No, Take Me Back
+            </button>
+            <button
+              className="btn btn-primary"
+              onClick={() => handleConsent(true)}
+            >
+              Yes, I Understand and Wish to Proceed
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div>
