@@ -56,7 +56,7 @@ The headline should be clear, concise, and unbiased.
 
 Do *NOT* directly hotlink images and be mindful of copyright prior to submission. Do not include an image if there is no *directly* relevant, non-public domain image (e.g. content on Bill Gates should not include a random public domain image of Bill Gates). If an image is *directly* relevant and reusable, then reuse it and don't create a new copy (keeps the website's file size down).
 
-Images should be submitted in a .webp format alongside the PR, with the same timeline bullet name (e.g. `2026-01-05.webp`). Keep the image dinensions as the original where possible, and keep the image as uncompressed as possible.
+Images should be submitted in a .webp format alongside the PR, with the same timeline bullet name (e.g. `2026-01-05.webp`). Keep the image dimensions as the original where possible, and keep the image as uncompressed as possible.
 
 ### Info information guidelines
 
