@@ -1,5 +1,5 @@
 # the-epstein-timeline
-This website is meant to transparently serve as a crowd-sourced repository of information relating to the case of Jeffrey Epstein, his associates, and his victims. The aim is to a properly-cited collaborative source of truth to keep an honest and open record of easily-searchable events, as it's easy to forget just how much there is to this whole ordeal.
+[This website](https://www.epsteintimeline.org/) is meant to transparently serve as a crowd-sourced repository of information relating to the case of Jeffrey Epstein, his associates, and his victims. The aim is to a properly-cited collaborative source of truth to keep an honest and open record of easily-searchable events, as it's easy to forget just how much there is to this whole ordeal.
 
 If you are interested, you are welcome and encouraged to become a contributor of this project. Native translation efforts are especially welcome. Read on to find out how to get involved.
 
