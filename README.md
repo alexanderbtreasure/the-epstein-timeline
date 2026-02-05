@@ -114,6 +114,10 @@ Any contributions are protected under [CC BY-NC-ND](https://creativecommons.org/
 
 For external individuals wanting to properly cite this collaborative effort, either do not list an author and simply link the site, or cite the author as: "The Epstein Timeline Group."
 
+### License
+
+Why not operate on an open-source license? Open-source strictly requires that code be available for commercial reproduction. Given the nature and severity of crimes alleged, commercialization is not permissible for this codebase. The chosen license gives contributors the opportunity to fork and make pull requests as appropriate, which should cover all reasonable use cases.
+
 ### Questions
 
 Any further questions about copyright or citation can be had over in the discussions.
