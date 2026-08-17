@@ -1,19 +1,21 @@
-{
-    "date": "2019-07-12",
-    "description": "Acosta has faced backlash for his role in procuring and executing Epstein's 2008 nonprosection agreement, amplified by Epsrein's recent re-arrest.",
-    "headline": "Alexander Acosta Announces Resignation as Labor Secretary",
-    "info": [
-        {
-            "description": "2019-07-19: In accordance with his resignation announcement, Alexander Acosta stepped down one week later on the 19th.",
-            "note": "Deputy Labor Secretary Patrick Pizzella stepped in to take over as acting head of the department.",
-            "source": "https://www.dol.gov/newsroom/releases/osec/osec20190712"
-        }
-    ],
-    "sources": [
-        "https://www.npr.org/2019/07/12/739881163/alexander-acosta-steps-down-as-labor-secretary-amid-epstein-controversy"
-    ],
-    "tags": [
-        "Alexander Acosta"
-    ],
-    "type": "minor"
-}
+[
+    {
+        "date": "2019-07-12",
+        "description": "Acosta has faced backlash for his role in procuring and executing Epstein's 2008 nonprosection agreement, amplified by Epsrein's recent re-arrest.",
+        "headline": "Alexander Acosta Announces Resignation as Labor Secretary",
+        "info": [
+            {
+                "description": "2019-07-19: In accordance with his resignation announcement, Alexander Acosta stepped down one week later on the 19th.",
+                "note": "Deputy Labor Secretary Patrick Pizzella stepped in to take over as acting head of the department.",
+                "source": "https://www.dol.gov/newsroom/releases/osec/osec20190712"
+            }
+        ],
+        "sources": [
+            "https://www.npr.org/2019/07/12/739881163/alexander-acosta-steps-down-as-labor-secretary-amid-epstein-controversy"
+        ],
+        "tags": [
+            "Alexander Acosta"
+        ],
+        "type": "minor"
+    }
+]

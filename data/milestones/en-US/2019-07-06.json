@@ -1,22 +1,24 @@
-{
-    "date": "2019-07-06",
-    "description": "The Southern District Court of New York (SDNY) in close collaboration with the New York Field Office of the Federal Bureau of Investigation (FBI) and the New York City Police Department (NYPD) arrested Jeffrey Epstein on charges of sex trafficking of minors and conspiracy to engage in sex trafficking of minors.",
-    "headline": "Jeffrey Epstein Arrested by Federal Agents on Sex Trafficking of Minors Charges",
-    "img": "2019-07-06.webp",
-    "info": [
-        {
-            "description": "The U.S. Attorney's Office for the Southern District of New York posted a press release two days later.",
-            "note": "\"[Epstein] is charged with one count of sex trafficking of minors, which carries a maximum sentence of 40 years in prison, and one count of conspiracy to engage in sex trafficking of minors, which carries a maximum sentence of five years in prison.\"",
-            "source": "https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-manhattan-federal-court-sex-trafficking-minors"
-        }
-    ],
-    "sources": [
-        "https://www.motherjones.com/wp-content/uploads/2019/09/Epstein.Docs_.redacted.pdf",
-        "https://www.npr.org/2019/07/07/739260129/reports-jeffrey-epstein-arrested-on-sex-trafficking-charges"
-    ],
-    "tags": [
-        "Jeffrey Epstein",
-        "Southern District Court of New York"
-    ],
-    "type": "major"
-}
+[
+    {
+        "date": "2019-07-06",
+        "description": "The Southern District Court of New York (SDNY) in close collaboration with the New York Field Office of the Federal Bureau of Investigation (FBI) and the New York City Police Department (NYPD) arrested Jeffrey Epstein on charges of sex trafficking of minors and conspiracy to engage in sex trafficking of minors.",
+        "headline": "Jeffrey Epstein Arrested by Federal Agents on Sex Trafficking of Minors Charges",
+        "img": "2019-07-06.webp",
+        "info": [
+            {
+                "description": "The U.S. Attorney's Office for the Southern District of New York posted a press release two days later.",
+                "note": "\"[Epstein] is charged with one count of sex trafficking of minors, which carries a maximum sentence of 40 years in prison, and one count of conspiracy to engage in sex trafficking of minors, which carries a maximum sentence of five years in prison.\"",
+                "source": "https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-manhattan-federal-court-sex-trafficking-minors"
+            }
+        ],
+        "sources": [
+            "https://www.motherjones.com/wp-content/uploads/2019/09/Epstein.Docs_.redacted.pdf",
+            "https://www.npr.org/2019/07/07/739260129/reports-jeffrey-epstein-arrested-on-sex-trafficking-charges"
+        ],
+        "tags": [
+            "Jeffrey Epstein",
+            "Southern District Court of New York"
+        ],
+        "type": "major"
+    }
+]

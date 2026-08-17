@@ -1,21 +1,23 @@
-{
-    "date": "2013-07-18",
-    "description": "Esptein cites Bill Gates' then-wife Melinda as a contributing factor in their declined relationship, which aligns with Melinda's statement that Bill's friendship with Epstein was a factor in their deteriorated marriage. The emails Epstein mentions do not, at least as-of-yet, appear in the Epstein files.",
-    "headline": "Jeffrey Epstein Drafted Multiple Emails to Bill Gates Concerning their Relationship",
-    "info": [
-        {
-            "description": "Epstein and Gates' personal relationship was not publicly known at this time.",
-            "note": "This information was revealed in the 2026-01-30 document dump from the Department of Justice pertaining to the Epstein Files Transparency Act.",
-            "source": "http://localhost:5173#2026-01-30"
-        }
-    ],
-    "sources": [
-        "https://www.justice.gov/epstein/files/DataSet%209/EFTA00965059.pdf",
-        "https://www.justice.gov/epstein/files/DataSet%209/EFTA00965773.pdf"
-    ],
-    "tags": [
-        "Jeffrey Epstein",
-        "Bill Gates"
-    ],
-    "type": "minor"
-}
+[
+    {
+        "date": "2013-07-18",
+        "description": "Esptein cites Bill Gates' then-wife Melinda as a contributing factor in their declined relationship, which aligns with Melinda's statement that Bill's friendship with Epstein was a factor in their deteriorated marriage. The emails Epstein mentions do not, at least as-of-yet, appear in the Epstein files.",
+        "headline": "Jeffrey Epstein Drafted Multiple Emails to Bill Gates Concerning their Relationship",
+        "info": [
+            {
+                "description": "Epstein and Gates' personal relationship was not publicly known at this time.",
+                "note": "This information was revealed in the 2026-01-30 document dump from the Department of Justice pertaining to the Epstein Files Transparency Act.",
+                "source": "http://localhost:5173#2026-01-30"
+            }
+        ],
+        "sources": [
+            "https://www.justice.gov/epstein/files/DataSet%209/EFTA00965059.pdf",
+            "https://www.justice.gov/epstein/files/DataSet%209/EFTA00965773.pdf"
+        ],
+        "tags": [
+            "Jeffrey Epstein",
+            "Bill Gates"
+        ],
+        "type": "minor"
+    }
+]

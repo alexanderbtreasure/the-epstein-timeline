@@ -1,15 +1,17 @@
-{
-    "date": "2025-07-15",
-    "description": "Rep. Ro Khanna (D-CA) introduced bill H. R. 4405 to the House on behalf of himself and co-sponsor Rep. Thomas Massie (R-KY).",
-    "headline": "US House Representatives Introduce \"Epstein Files Transparency Act\"",
-    "sources": [
-        "https://www.congress.gov/bill/119th-congress/house-bill/4405/text/ih"
-    ],
-    "tags": [
-        "US House",
-        "Ro Khanna",
-        "Thomas Massie",
-        "Epstein Files Transparency Act"
-    ],
-    "type": "major"
-}
+[
+    {
+        "date": "2025-07-15",
+        "description": "Rep. Ro Khanna (D-CA) introduced bill H. R. 4405 to the House on behalf of himself and co-sponsor Rep. Thomas Massie (R-KY).",
+        "headline": "US House Representatives Introduce \"Epstein Files Transparency Act\"",
+        "sources": [
+            "https://www.congress.gov/bill/119th-congress/house-bill/4405/text/ih"
+        ],
+        "tags": [
+            "US House",
+            "Ro Khanna",
+            "Thomas Massie",
+            "Epstein Files Transparency Act"
+        ],
+        "type": "major"
+    }
+]

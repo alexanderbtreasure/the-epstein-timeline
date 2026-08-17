@@ -1,20 +1,22 @@
-{
-    "date": "",
-    "description": "",
-    "headline": "",
-    "img": "",
-    "info": [
-        {
-            "description": "",
-            "note": "",
-            "source": ""
-        }
-    ],
-    "sources": [
-        ""
-    ],
-    "tags": [
-        ""
-    ],
-    "type": ""
-}
+[
+    {
+        "date": "",
+        "description": "",
+        "headline": "",
+        "img": "",
+        "info": [
+            {
+                "description": "",
+                "note": "",
+                "source": ""
+            }
+        ],
+        "sources": [
+            ""
+        ],
+        "tags": [
+            ""
+        ],
+        "type": ""
+    }
+]

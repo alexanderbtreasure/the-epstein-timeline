@@ -1,12 +1,14 @@
-{
-    "date": "2025-12-22 13:09 EST",
-    "description": "Angel Ureña, Spokesman for Former President Bill Clinton, released a statement calling upon President Donald Trump to instruct the Justice Department to release and make fully transparent any and all files related to Bill Clinton.",
-    "headline": "Spokesperson for Former President Bill Clinton Releases Statement Requesting Full Public Release of Documents Containing or Pertaining to Bill Clinton",
-    "sources": [
-        "https://x.com/angelurena/status/2003166064969154839?s=20"
-    ],
-    "tags": [
-        "Bill Clinton"
-    ],
-    "type": "minor"
-}
+[
+    {
+        "date": "2025-12-22 13:09 EST",
+        "description": "Angel Ureña, Spokesman for Former President Bill Clinton, released a statement calling upon President Donald Trump to instruct the Justice Department to release and make fully transparent any and all files related to Bill Clinton.",
+        "headline": "Spokesperson for Former President Bill Clinton Releases Statement Requesting Full Public Release of Documents Containing or Pertaining to Bill Clinton",
+        "sources": [
+            "https://x.com/angelurena/status/2003166064969154839?s=20"
+        ],
+        "tags": [
+            "Bill Clinton"
+        ],
+        "type": "minor"
+    }
+]

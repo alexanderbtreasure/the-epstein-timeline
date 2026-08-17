@@ -1,25 +1,27 @@
-{
-    "date": "2023-06-02 00:30 EST",
-    "description": "New records obtained by The Associated Press under FOIA, more than 4,000 pages from the Federal Bureau of Prisons, offer the most detailed public account to date of Jeffrey Epstein's detention and death in August 2019. The documents describe a man struggling to cope in custody after his July arrest, including a recent suicide attempt and worsening stressors, even as he at times denied being suicidal. They also emphasize that systemic prison failures, severe staffing shortages, missed required checks, and officers later admitting to falsifying logs, left him unmonitored and alone in his cell at the Metropolitan Correctional Center, helping explain how the suicide occurred and undercutting many conspiracy theories. The papers further show confusion and missteps in the agency's immediate response and describe reforms and scrutiny that followed, including the jail's eventual closure and an ongoing U.S. Department of Justice Office of the Inspector General investigation.",
-    "headline": "Associated Press Releases new Epstein Information from FOIA Request Surrounding his Death",
-    "info": [
-        {
-            "description": "Epstein apparently had tried to contact convicted serial sex offender Larry Nassar, but the letter was returned to sender after Epstein's death.",
-            "note": "This letter was revealed in part during the AP News' FOIA request, but the full letter was not released until the 2025 December Epstein Files Transparency Act document dump.",
-            "source": "http://localhost:5173#2019-08-13"
-        },
-        {
-            "description": "Morgan State University professor Dr. Jonathan David Farley apparently proposed a quid pro quo exchange with Epstein.",
-            "note": "This exchange would involve Epstein donating money to either Farley or one of a few programs recommended by Farley (in Farley's benefit), and Farley would come out publicly in support of Epstein. Dr. Farley's only indicated previous connection was a three-way Skype call in 2017 with Epstein and Farley's then-PhD student, Zaineb Bandpey.",
-            "source": "https://www.bop.gov/foia/docs/Epstein_Records.pdf#page=291"
-        }
-    ],
-    "sources": [
-        "https://apnews.com/article/jeffrey-epstein-jail-suicide-prison-death-8d194a756f2b429067f009a0c70f96c0",
-        "https://www.bop.gov/foia/docs/Epstein_Records.pdf"
-    ],
-    "tags": [
-        "US Bureau of Prisons"
-    ],
-    "type": "minor"
-}
+[
+    {
+        "date": "2023-06-02 00:30 EST",
+        "description": "New records obtained by The Associated Press under FOIA, more than 4,000 pages from the Federal Bureau of Prisons, offer the most detailed public account to date of Jeffrey Epstein's detention and death in August 2019. The documents describe a man struggling to cope in custody after his July arrest, including a recent suicide attempt and worsening stressors, even as he at times denied being suicidal. They also emphasize that systemic prison failures, severe staffing shortages, missed required checks, and officers later admitting to falsifying logs, left him unmonitored and alone in his cell at the Metropolitan Correctional Center, helping explain how the suicide occurred and undercutting many conspiracy theories. The papers further show confusion and missteps in the agency's immediate response and describe reforms and scrutiny that followed, including the jail's eventual closure and an ongoing U.S. Department of Justice Office of the Inspector General investigation.",
+        "headline": "Associated Press Releases new Epstein Information from FOIA Request Surrounding his Death",
+        "info": [
+            {
+                "description": "Epstein apparently had tried to contact convicted serial sex offender Larry Nassar, but the letter was returned to sender after Epstein's death.",
+                "note": "This letter was revealed in part during the AP News' FOIA request, but the full letter was not released until the 2025 December Epstein Files Transparency Act document dump.",
+                "source": "http://localhost:5173#2019-08-13"
+            },
+            {
+                "description": "Morgan State University professor Dr. Jonathan David Farley apparently proposed a quid pro quo exchange with Epstein.",
+                "note": "This exchange would involve Epstein donating money to either Farley or one of a few programs recommended by Farley (in Farley's benefit), and Farley would come out publicly in support of Epstein. Dr. Farley's only indicated previous connection was a three-way Skype call in 2017 with Epstein and Farley's then-PhD student, Zaineb Bandpey.",
+                "source": "https://www.bop.gov/foia/docs/Epstein_Records.pdf#page=291"
+            }
+        ],
+        "sources": [
+            "https://apnews.com/article/jeffrey-epstein-jail-suicide-prison-death-8d194a756f2b429067f009a0c70f96c0",
+            "https://www.bop.gov/foia/docs/Epstein_Records.pdf"
+        ],
+        "tags": [
+            "US Bureau of Prisons"
+        ],
+        "type": "minor"
+    }
+]

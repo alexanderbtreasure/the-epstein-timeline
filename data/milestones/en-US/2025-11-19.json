@@ -1,29 +1,53 @@
-{
-    "date": "2025-11-19 10:02 EST",
-    "description": "This marks the second step of the passing of the Epstein Files Transparency Act, sending the bill to the desk of the President.",
-    "headline": "U.S. Senate Passes Epstein Files Transparency Act",
-    "img": "2025-11-19-01.webp",
-    "info": [
-        {
-            "description": "The Senate passed the act by unanimous consent.",
-            "note": "That is, the bill passed without needing to hold a vote, as none objected.",
-            "source": "https://www.congress.gov/congressional-record/volume-171/issue-195/senate-section/article/S8211-6"
-        },
-        {
-            "description": "House Speaker Mike Johnson expressed concern over the Senate's passing of the bill, despite voting for the bill one day prior.",
-            "note": "Speaker Johnson stated that he spoke with the President and felt the bill needed \"amendments.\" He did not substantially comment on whether or not he expected a Presidential veto.",
-            "source": "https://youtu.be/3XUT_6Rp2sk"
-        }
-    ],
-    "sources": [
-        "https://www.c-span.org/clip/us-senate/senate-unanimously-approves-bill-to-release-epstein-files-sends-it-to-presidents-desk/5180419",
-        "https://www.congress.gov/bill/119th-congress/house-bill/4405"
-    ],
-    "tags": [
-        "US Congress",
-        "US Senate",
-        "Mike Johnson",
-        "Epstein Files Transparency Act"
-    ],
-    "type": "major"
-}
+[
+    {
+        "date": "2025-11-19 10:02 EST",
+        "description": "This marks the second step of the passing of the Epstein Files Transparency Act, sending the bill to the desk of the President.",
+        "headline": "U.S. Senate Passes Epstein Files Transparency Act",
+        "img": "2025-11-19-01.webp",
+        "info": [
+            {
+                "description": "The Senate passed the act by unanimous consent.",
+                "note": "That is, the bill passed without needing to hold a vote, as none objected.",
+                "source": "https://www.congress.gov/congressional-record/volume-171/issue-195/senate-section/article/S8211-6"
+            },
+            {
+                "description": "House Speaker Mike Johnson expressed concern over the Senate's passing of the bill, despite voting for the bill one day prior.",
+                "note": "Speaker Johnson stated that he spoke with the President and felt the bill needed \"amendments.\" He did not substantially comment on whether or not he expected a Presidential veto.",
+                "source": "https://youtu.be/3XUT_6Rp2sk"
+            }
+        ],
+        "sources": [
+            "https://www.c-span.org/clip/us-senate/senate-unanimously-approves-bill-to-release-epstein-files-sends-it-to-presidents-desk/5180419",
+            "https://www.congress.gov/bill/119th-congress/house-bill/4405"
+        ],
+        "tags": [
+            "US Congress",
+            "US Senate",
+            "Mike Johnson",
+            "Epstein Files Transparency Act"
+        ],
+        "type": "major"
+    },
+    {
+        "date": "2025-11-19 20:20 EST",
+        "description": "This signing marks the final step of the passing of the Epstein Files Transparency Act. With this, the Department of Justice has 30 days to, according to the Act, \"make publicly available in a searchable and downloadable format all unclassified records, documents, communications, and investigative materials in the possession of the Department of Justice... that relate to (1) Jeffrey Epstein... (2) Ghislaine Maxwell...\" and related cases and items. The President announced the signing via Truth Social.",
+        "headline": "U.S. President Signs Epstein Files Transparency Act",
+        "img": "2025-11-19-02.webp",
+        "info": [
+            {
+                "description": "It should be noted that it is fully within the President's purview to order the declassification of such files from the Department of Justice, without an act of Congress, if they so wish, and that this could have been undertaken at any point in the first 10 months of the presidency.",
+                "note": "The President has not responded to this fact directly.",
+                "source": "https://www.bbc.com/news/articles/cly2y40lj5go"
+            }
+        ],
+        "sources": [
+            "https://truthsocial.com/@realDonaldTrump/posts/115579394833948106",
+            "https://www.congress.gov/bill/119th-congress/house-bill/4405"
+        ],
+        "tags": [
+            "Donald Trump",
+            "Epstein Files Transparency Act"
+        ],
+        "type": "major"
+    }
+]

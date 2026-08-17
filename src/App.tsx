@@ -34,8 +34,8 @@ const getProductionUrl = (url: string): string => {
   return url;
 };
 
-const localeModules: Record<string, Record<string, { default: Milestone }>> = {
-  'en-US': import.meta.glob<{ default: Milestone }>(
+const localeModules: Record<string, Record<string, { default: Milestone[] }>> = {
+  'en-US': import.meta.glob<{ default: Milestone[] }>(
     '../data/milestones/en-US/*.json',
     { eager: true }
   ),
@@ -51,8 +51,8 @@ const loadLocalizedMilestones = (): Milestone[] => {
     if (!modules) continue;
 
     const allMilestones: Milestone[] = Object.values(modules)
-      .filter(module => module.default)
-      .map(module => module.default);
+      .filter(module => Array.isArray(module.default))
+      .flatMap(module => module.default);
 
     if (allMilestones.length > 0) {
       console.log(`Loaded ${allMilestones.length} milestones for locale: ${locale}`);

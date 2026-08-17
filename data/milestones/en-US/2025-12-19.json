@@ -1,41 +1,43 @@
-{
-    "date": "2025-12-19",
-    "description": "The Department of Justice released an incomplete set of documents on Friday, in a violation of the 30-day window specified by the Epstein Files Transparency Act. Attorney General Pam Bondi promised that the additional documents would be delivered within two weeks.",
-    "headline": "Department of Justice Partially Releases Documents in Partial Accordance with the Epstein Files Transparency Act",
-    "img": "2025-12-19.webp",
-    "info": [
-        {
-            "description": "The Act did not specify a punishment in the event that the letter of the law is not followed.",
-            "note": "Act co-author Rep. Ro Khanna (D-CA) warned previously before the release that anyone obstructing the full release of the files would likely be charged by a different administration.",
-            "source": "https://www.npr.org/transcripts/nx-s1-5648370"
-        },
-        {
-            "description": "The Department of Justice notably did not include a press release as part of this effort.",
-            "note": "This is despite releasing eight other press releases that day.",
-            "source": "https://www.justice.gov/news/press-releases?search_api_fulltext=+&start_date=2025-12-19&end_date=2025-12-20&sort_by=field_date"
-        },
-        {
-            "description": "Deputy Attorney General Todd Blanche indicated the morning of release on a Fox News interview that the files would be incomplete.",
-            "note": "He went on to state that there would be no favoritism in redaction shown and that the delay was owing to that care was being taken to redact victims' names.",
-            "source": "https://www.politico.com/news/2025/12/19/epstein-documents-release-friday-deadline-00699935?utm_source=dlvr.it&utm_medium=twitter"
-        },
-        {
-            "description": "Oversight Ranking Member Robert Garcia (D-CA) and Judiciary Ranking Member Jamie Raskin (D-MD) released a joint statement after Todd Blanche's interview.",
-            "note": "They state that they are \"now examining all legal options in the face of this violation of federal law.\"",
-            "source": "https://x.com/HouseJudiciary/status/2002066473599316430?s=20"
-        },
-        {
-            "description": "Many online commentators expressed frustration at the extensive redactions present in the December 19 release.",
-            "note": "Some documents are redacted nearly in full.",
-            "source": "https://www.newsweek.com/jeffrey-epstein-file-redactions-spark-outrage-11247230"
-        }
-    ],
-    "sources": [
-        "https://www.justice.gov/epstein"
-    ],
-    "tags": [
-        "US Department of Justice",
-        "Epstein Files Transparency Act"
-    ],
-    "type": "major"
-}
+[
+    {
+        "date": "2025-12-19",
+        "description": "The Department of Justice released an incomplete set of documents on Friday, in a violation of the 30-day window specified by the Epstein Files Transparency Act. Attorney General Pam Bondi promised that the additional documents would be delivered within two weeks.",
+        "headline": "Department of Justice Partially Releases Documents in Partial Accordance with the Epstein Files Transparency Act",
+        "img": "2025-12-19.webp",
+        "info": [
+            {
+                "description": "The Act did not specify a punishment in the event that the letter of the law is not followed.",
+                "note": "Act co-author Rep. Ro Khanna (D-CA) warned previously before the release that anyone obstructing the full release of the files would likely be charged by a different administration.",
+                "source": "https://www.npr.org/transcripts/nx-s1-5648370"
+            },
+            {
+                "description": "The Department of Justice notably did not include a press release as part of this effort.",
+                "note": "This is despite releasing eight other press releases that day.",
+                "source": "https://www.justice.gov/news/press-releases?search_api_fulltext=+&start_date=2025-12-19&end_date=2025-12-20&sort_by=field_date"
+            },
+            {
+                "description": "Deputy Attorney General Todd Blanche indicated the morning of release on a Fox News interview that the files would be incomplete.",
+                "note": "He went on to state that there would be no favoritism in redaction shown and that the delay was owing to that care was being taken to redact victims' names.",
+                "source": "https://www.politico.com/news/2025/12/19/epstein-documents-release-friday-deadline-00699935?utm_source=dlvr.it&utm_medium=twitter"
+            },
+            {
+                "description": "Oversight Ranking Member Robert Garcia (D-CA) and Judiciary Ranking Member Jamie Raskin (D-MD) released a joint statement after Todd Blanche's interview.",
+                "note": "They state that they are \"now examining all legal options in the face of this violation of federal law.\"",
+                "source": "https://x.com/HouseJudiciary/status/2002066473599316430?s=20"
+            },
+            {
+                "description": "Many online commentators expressed frustration at the extensive redactions present in the December 19 release.",
+                "note": "Some documents are redacted nearly in full.",
+                "source": "https://www.newsweek.com/jeffrey-epstein-file-redactions-spark-outrage-11247230"
+            }
+        ],
+        "sources": [
+            "https://www.justice.gov/epstein"
+        ],
+        "tags": [
+            "US Department of Justice",
+            "Epstein Files Transparency Act"
+        ],
+        "type": "major"
+    }
+]

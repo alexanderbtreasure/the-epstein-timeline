@@ -1,17 +1,19 @@
-{
-    "date": "2026-01-05",
-    "description": "Attorney General Pamela Bondi and Deputy Attorney General Todd Blanche filed an update briefing concerning United States v. Ghislaine Maxwell. Notably, the filing revealed that less than 1% of the total expected documents had at that point been sifted through.",
-    "headline": "Department of Justice Files Update Briefing with Southern District Court of New York",
-    "img": "2026-01-05.webp",
-    "sources": [
-        "https://storage.courtlistener.com/recap/gov.uscourts.nysd.539612/gov.uscourts.nysd.539612.826.0.pdf"
-    ],
-    "tags": [
-        "US Department of Justice",
-        "Ghislaine Maxwell",
-        "Southern District Court of New York",
-        "Pamela Bondi",
-        "Todd Blanche"
-    ],
-    "type": "major"
-}
+[
+    {
+        "date": "2026-01-05",
+        "description": "Attorney General Pamela Bondi and Deputy Attorney General Todd Blanche filed an update briefing concerning United States v. Ghislaine Maxwell. Notably, the filing revealed that less than 1% of the total expected documents had at that point been sifted through.",
+        "headline": "Department of Justice Files Update Briefing with Southern District Court of New York",
+        "img": "2026-01-05.webp",
+        "sources": [
+            "https://storage.courtlistener.com/recap/gov.uscourts.nysd.539612/gov.uscourts.nysd.539612.826.0.pdf"
+        ],
+        "tags": [
+            "US Department of Justice",
+            "Ghislaine Maxwell",
+            "Southern District Court of New York",
+            "Pamela Bondi",
+            "Todd Blanche"
+        ],
+        "type": "major"
+    }
+]
