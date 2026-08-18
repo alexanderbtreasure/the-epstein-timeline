@@ -28,6 +28,8 @@ From here below is a styling guide for how to submit new content.
 
 If submitting new content, follow the outline in `data/template.json` and add it to your local copy under `data/milestones/[locale]`, branch the content branch from `development` into `content/[timestamp]` (e.g. `content/2026-01-05`), and submit your update as a pull request (PR) with a request to merge to `content/[locale]` e.g. `content/en-US`.
 
+Each file is named for a single date (`[YYYY-MM-DD].json`) and holds an *array* of entries, ordered chronologically. If an entry already exists for that date, append yours to that file's array rather than creating a second file.
+
 *What content is worth a new timeline bullet?*
 * Any new information released.
 * Any new public statement released by an affiliated individual.

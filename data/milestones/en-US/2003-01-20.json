@@ -1,0 +1,35 @@
+[
+    {
+        "date": "2003-01-20",
+        "description": "Ghislaine Maxwell coordinated a leather-bound, multi-volume album of letters, notes, photographs, and drawings solicited from Jeffrey Epstein's family, friends, and associates to mark his fiftieth birthday on January 20, 2003. The volume released to Congress in 2025 is titled \"The First Fifty Years\" and is marked \"I\" on its spine. Its table of contents sorts contributors into the groups \"Prologue,\" \"Family,\" \"Brooklyn,\" \"Girlfriends,\" \"Children,\" \"Friends,\" \"Science,\" \"Girl-Friends,\" \"Special Assistants,\" and \"Buisness\" [sic]. Among the names listed under \"Friends\" are Leon Black, Jean Luc Brunel, Bill Clinton, Alan Dershowitz, Peter Mandelson, George Mitchel [sic], Nathan Myhrvold, Stuart Pivar, Donald Trump, Lesley Wexner [sic], and Mort Zuckerman. Neither the album nor its contents were publicly reported at the time.",
+        "headline": "Ghislaine Maxwell Assembles a Fiftieth Birthday Album for Jeffrey Epstein",
+        "img": "2003-01-20.webp",
+        "info": [
+            {
+                "description": "Ghislaine Maxwell described assembling the album to Deputy Attorney General Todd Blanche during her July 2025 interview with the Department of Justice.",
+                "note": "She said the idea came from a book her mother had made for her father's 60th birthday, that Epstein \"loved that idea\" and asked her to \"help coordinate it,\" and that Epstein \"called a lot of the people himself.\" Asked what contributors were asked for, she answered, \"It's his 50th birthday, say anything you want on a piece of paper.\" She said she did not remember a submission from Donald Trump, and that she saw no page from him in her own trial discovery.",
+                "source": "https://www.justice.gov/storage/audio-files/Interview%20Transcript/Interview%20Transcript%20-%20Maxwell%202025.07.24%20(Redacted).pdf#page=177"
+            },
+            {
+                "description": "The copy of the album produced to the US House Oversight Committee runs 238 pages and is redacted in part.",
+                "note": "Several contributor names in the table of contents are blacked out, as are the entries listed under \"Girlfriends,\" \"Children,\" \"Girl-Friends,\" and \"Special Assistants.\" Each page carries a \"HOUSE_OVERSIGHT\" bates number.",
+                "source": "https://d3i6fh83elv35t.cloudfront.net/static/2025/09/Request-No.-1.pdf"
+            },
+            {
+                "description": "The album's existence was first reported publicly by The Wall Street Journal on July 17, 2025.",
+                "note": "The full album was not released to the public until the US House Oversight Committee published the estate's subpoena production on September 8, 2025.",
+                "source": "http://localhost:5173#2025-07-17"
+            }
+        ],
+        "sources": [
+            "https://d3i6fh83elv35t.cloudfront.net/static/2025/09/Request-No.-1.pdf",
+            "https://www.cbp.gov/sites/default/files/2024-05/jeffrey_epstein_records_3.pdf"
+        ],
+        "tags": [
+            "Jeffrey Epstein",
+            "Ghislaine Maxwell",
+            "Epstein Birthday Book"
+        ],
+        "type": "minor"
+    }
+]

@@ -1,37 +1,39 @@
-{
-    "date": "2019-08-13",
-    "description": "Although the existence of the letter was only publicly released in a FOIA request by the Associated Press in 2023, the contents of the letter were not revealed until 2025's Epstein Files Transparency Act Department of Justice file dump. In this letter, Jeffrey Epstein potentially attempted to share correspondence with convicted serial sex offender Larry Nassar, but the letter was returned to sender, as Nassar had moved between institutions. This file was uploaded unredacted, and its message in full is indicated below.\r\n\r\nEpstein file EFTA00035768:\r\n\r\nDear L. N.\r\n\r\nAs you know by now, I have taken the \"short route\" home. Good luck! We shared one thing… our love & caring for young ladies at the hope they'd reach their full potential.\r\nOur president shares our love of young, nubile girls. When a young beauty walked by he loved to \"grab snatch,\" whereas we ended up snatching grub in the mess halls of the system.\r\nLife is unfair.\r\n\r\nYours\r\nJ. Epstein\r\n\r\nThis letter, seemingly in part a suicide note if real, would raise new questions into whether Epstein's death could have been prevented. Additionally, if it would be real, whether Esptein wanted to throw a parting shot at President Trump or whether Epstein is disclosing President Trump's past behavior with someone who the public was not previously aware of any affiliation with is not directly inferrable. However, it at least seems likely that the author (Epstein or otherwise) expected this letter to be discovered, and certainly only read after Epstein's death.",
-    "headline": "Jeffrey Epstein Potential Attempted Correspondence with Larry Nassar Shortly Before his Death",
-    "img": "2019-08-13.webp",
-    "info": [
-        {
-            "description": "The existence of this letter was previously first reported by the Associated Press from a fulfilled FOIA request back in 2023.",
-            "note": "At this time, only the envelope and an investigator's brief inquiry into the letter's contents were known.",
-            "source": "http://localhost:5173#2023-06-02%2000:30%20EST"
-        },
-        {
-            "description": "The full letter was revealed as part of the Department of Justice's 2025 Epstein Files Transparency Act (EFTA) file dump.",
-            "note": "The letter was not redacted in the dump, suprising commentators, unlike many other documents.",
-            "source": "http://localhost:5173#2025-12-19"
-        },
-        {
-            "description": "The letter was requested to be examined using handwriting analysis by the Federal Bureau of Investigation (FBI) in 2020.",
-            "note": "This was likewise revealed during the 2025 EFTA file dump. Notably, in a possible mistake, although the letter is postmarked 08-13, the FBI labratory examination form indicates that the letter was collected 08-10.",
-            "source": "https://www.justice.gov/epstein/files/DataSet%208/EFTA00035759.pdf"
-        },
-        {
-            "description": "The Justice Department released a statement on X (formerly Twitter) stating that the letter is \"FAKE.\"",
-            "note": "The Justice Department did not address all issues surrounding this file, including how the laboratory exam form indicates that such a letter immediately came to be in the possession of the FBI following Epstein's death and that it's marked as coming from the cell block Epstein stayed in. Multiple possibilities exist for this letter, but none have been fully explained as-of yet.",
-            "source": "https://x.com/TheJusticeDept/status/2003563085437534227"
-        }
-    ],
-    "sources": [
-        "https://imgur.com/a/hRBY8NM",
-        "https://www.justice.gov/epstein/files/DataSet%208/EFTA00035768.pdf"
-    ],
-    "tags": [
-        "Jeffrey Epstein",
-        "Larry Nassar"
-    ],
-    "type": "minor"
-}
+[
+    {
+        "date": "2019-08-13",
+        "description": "Although the existence of the letter was only publicly released in a FOIA request by the Associated Press in 2023, the contents of the letter were not revealed until 2025's Epstein Files Transparency Act Department of Justice file dump. In this letter, Jeffrey Epstein potentially attempted to share correspondence with convicted serial sex offender Larry Nassar, but the letter was returned to sender, as Nassar had moved between institutions. This file was uploaded unredacted, and its message in full is indicated below.\r\n\r\nEpstein file EFTA00035768:\r\n\r\nDear L. N.\r\n\r\nAs you know by now, I have taken the \"short route\" home. Good luck! We shared one thing… our love & caring for young ladies at the hope they'd reach their full potential.\r\nOur president shares our love of young, nubile girls. When a young beauty walked by he loved to \"grab snatch,\" whereas we ended up snatching grub in the mess halls of the system.\r\nLife is unfair.\r\n\r\nYours\r\nJ. Epstein\r\n\r\nThis letter, seemingly in part a suicide note if real, would raise new questions into whether Epstein's death could have been prevented. Additionally, if it would be real, whether Esptein wanted to throw a parting shot at President Trump or whether Epstein is disclosing President Trump's past behavior with someone who the public was not previously aware of any affiliation with is not directly inferrable. However, it at least seems likely that the author (Epstein or otherwise) expected this letter to be discovered, and certainly only read after Epstein's death.",
+        "headline": "Jeffrey Epstein Potential Attempted Correspondence with Larry Nassar Shortly Before his Death",
+        "img": "2019-08-13.webp",
+        "info": [
+            {
+                "description": "The existence of this letter was previously first reported by the Associated Press from a fulfilled FOIA request back in 2023.",
+                "note": "At this time, only the envelope and an investigator's brief inquiry into the letter's contents were known.",
+                "source": "http://localhost:5173#2023-06-02%2000:30%20EST"
+            },
+            {
+                "description": "The full letter was revealed as part of the Department of Justice's 2025 Epstein Files Transparency Act (EFTA) file dump.",
+                "note": "The letter was not redacted in the dump, suprising commentators, unlike many other documents.",
+                "source": "http://localhost:5173#2025-12-19"
+            },
+            {
+                "description": "The letter was requested to be examined using handwriting analysis by the Federal Bureau of Investigation (FBI) in 2020.",
+                "note": "This was likewise revealed during the 2025 EFTA file dump. Notably, in a possible mistake, although the letter is postmarked 08-13, the FBI labratory examination form indicates that the letter was collected 08-10.",
+                "source": "https://www.justice.gov/epstein/files/DataSet%208/EFTA00035759.pdf"
+            },
+            {
+                "description": "The Justice Department released a statement on X (formerly Twitter) stating that the letter is \"FAKE.\"",
+                "note": "The Justice Department did not address all issues surrounding this file, including how the laboratory exam form indicates that such a letter immediately came to be in the possession of the FBI following Epstein's death and that it's marked as coming from the cell block Epstein stayed in. Multiple possibilities exist for this letter, but none have been fully explained as-of yet.",
+                "source": "https://x.com/TheJusticeDept/status/2003563085437534227"
+            }
+        ],
+        "sources": [
+            "https://imgur.com/a/hRBY8NM",
+            "https://www.justice.gov/epstein/files/DataSet%208/EFTA00035768.pdf"
+        ],
+        "tags": [
+            "Jeffrey Epstein",
+            "Larry Nassar"
+        ],
+        "type": "minor"
+    }
+]

@@ -1,24 +1,26 @@
-{
-    "date": "2019-08-27",
-    "description": "Judge Richard M. Berman considered the government's motion to dismiss the indictment against Jeffrey Epstein after his death, which the government said legally abated the case. The judge explained that he still had to make an independent decision on dismissal (rather than simply accept the government's request) and, using the court's authority to manage procedure, held a public hearing specifically so victims would be notified and given a meaningful opportunity to be heard before any final action—both as a matter of law and out of respect for their decision to come forward. Prosecutors, defense counsel, and victims' lawyers discussed alleged failures in Epstein's jail monitoring and urged continued investigation and accountability, including pursuing anyone who enabled his abuse. Several victims delivered impact statements, and the judge closed by thanking them and the attorneys for placing their views on the record.",
-    "headline": "U.S. Judge Holds Hearing on Motion to Dismiss Indictment of Jeffrey Epstein",
-    "info": [
-        {
-            "description": "Redacted individuals at the Offices of the United States Attorneys (USANYS) discussed an NY Law Journal review of the forthcoming Epstein hearing.",
-            "note": "They noted that the judge did address the concerns of the authors withing the first 10 minutes of the trial, and repeating an allegation that one of the authors provided counsel to Epstein in one of the civil cases. This was revealed in a document release as part of the Epstein Files Transparency Act.",
-            "source": "https://www.justice.gov/epstein/files/DataSet%208/EFTA00018867.pdf"
-        },
-        {
-            "description": "One of the co-authors, the alleged counsel Bruce Green, spoke up a week later about the topic of him being counsel.",
-            "note": "Bruce Green assets in his letter to Judge Berman that he is, in fact, not providing counsel in any Epstein case, only that he served as an expert witness in a case involving Alan Dershowitz, that \"might be described as 'Epstein-related.'\" He further notes that he did not represent Dershowitz in that case. This document was also released persuant to the Epstein Files Transparency Act.",
-            "source": "https://www.justice.gov/epstein/files/DataSet%208/EFTA00011025.pdf"
-        }
-    ],
-    "sources": [
-        "https://www.documentcloud.org/documents/26031098-hearing-epstein-dismissal/"
-    ],
-    "tags": [
-        "US Southern District of New York"
-    ],
-    "type": "minor"
-}
+[
+    {
+        "date": "2019-08-27",
+        "description": "Judge Richard M. Berman considered the government's motion to dismiss the indictment against Jeffrey Epstein after his death, which the government said legally abated the case. The judge explained that he still had to make an independent decision on dismissal (rather than simply accept the government's request) and, using the court's authority to manage procedure, held a public hearing specifically so victims would be notified and given a meaningful opportunity to be heard before any final action—both as a matter of law and out of respect for their decision to come forward. Prosecutors, defense counsel, and victims' lawyers discussed alleged failures in Epstein's jail monitoring and urged continued investigation and accountability, including pursuing anyone who enabled his abuse. Several victims delivered impact statements, and the judge closed by thanking them and the attorneys for placing their views on the record.",
+        "headline": "U.S. Judge Holds Hearing on Motion to Dismiss Indictment of Jeffrey Epstein",
+        "info": [
+            {
+                "description": "Redacted individuals at the Offices of the United States Attorneys (USANYS) discussed an NY Law Journal review of the forthcoming Epstein hearing.",
+                "note": "They noted that the judge did address the concerns of the authors withing the first 10 minutes of the trial, and repeating an allegation that one of the authors provided counsel to Epstein in one of the civil cases. This was revealed in a document release as part of the Epstein Files Transparency Act.",
+                "source": "https://www.justice.gov/epstein/files/DataSet%208/EFTA00018867.pdf"
+            },
+            {
+                "description": "One of the co-authors, the alleged counsel Bruce Green, spoke up a week later about the topic of him being counsel.",
+                "note": "Bruce Green assets in his letter to Judge Berman that he is, in fact, not providing counsel in any Epstein case, only that he served as an expert witness in a case involving Alan Dershowitz, that \"might be described as 'Epstein-related.'\" He further notes that he did not represent Dershowitz in that case. This document was also released persuant to the Epstein Files Transparency Act.",
+                "source": "https://www.justice.gov/epstein/files/DataSet%208/EFTA00011025.pdf"
+            }
+        ],
+        "sources": [
+            "https://www.documentcloud.org/documents/26031098-hearing-epstein-dismissal/"
+        ],
+        "tags": [
+            "Southern District of New York"
+        ],
+        "type": "minor"
+    }
+]

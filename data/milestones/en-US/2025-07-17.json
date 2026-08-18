@@ -1,0 +1,36 @@
+[
+    {
+        "date": "2025-07-17",
+        "description": "Reporters Khadeeja Safdar and Joe Palazzolo published the first public account of the 2003 album assembled for Jeffrey Epstein's fiftieth birthday, describing it as a leather-bound book of poems, photos, and greetings compiled by Ghislaine Maxwell and put together before Epstein was first arrested in 2006. The report describes a page bearing Donald Trump's name that frames several lines of typewritten text, styled as an imaginary third-person conversation between the two men, inside the hand-drawn outline of a naked woman, signed with a squiggly \"Donald\" below her waist, and closing, \"Happy Birthday — and may every day be another wonderful secret.\" The Journal states that it reviewed the letter but did not publish an image of it. In an interview with the Journal the evening before publication, Trump denied writing the letter or drawing the picture, saying, \"This is not me. This is a fake thing. It's a fake Wall Street Journal story,\" and \"I never wrote a picture in my life. I don't draw pictures of women.\" He told the Journal he was preparing to sue if it published. The report also describes submissions from Leslie Wexner and Alan Dershowitz, and states the album was bound by a New York City bookbinder, Herbert Weitz, who died in 2020.",
+        "headline": "The Wall Street Journal Reports the Existence of Jeffrey Epstein's Birthday Album and a Letter Bearing Donald Trump's Name",
+        "info": [
+            {
+                "description": "The Journal notified the White House of its intent to publish two days before the article ran.",
+                "note": "According to President Trump's later defamation complaint, Joseph Palazzolo emailed White House Press Secretary Karoline Leavitt on July 15, 2025 advising of Dow Jones' intent to publish, counsel for the President sent a cease-and-desist email that same afternoon, and none of the defendants responded to it.",
+                "source": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.693830/gov.uscourts.flsd.693830.1.0_3.pdf#page=5"
+            },
+            {
+                "description": "President Trump responded on Truth Social at 21:57 EDT that night.",
+                "note": "He wrote, \"The Wall Street Journal printed a FAKE letter, supposedly to Epstein. These are not my words, not the way I talk. Also, I don't draw pictures. I told Rupert Murdoch it was a Scam, that he shouldn't print this Fake Story. But he did, and now I'm going to sue his ass off, and that of his third rate newspaper.\"",
+                "source": "https://truthsocial.com/@realDonaldTrump/posts/114871752316281496"
+            },
+            {
+                "description": "The Journal published a second report on the album one week later, on July 24, 2025.",
+                "note": "That report describes the table of contents as naming around five dozen contributors, quotes a paragraph submitted in Bill Clinton's handwriting, and describes submissions from Leon Black and Nathan Myhrvold. A spokesman for Clinton declined to comment on the message and referred to a previous statement that Clinton had cut off ties more than a decade before Epstein's 2019 arrest.",
+                "source": "https://www.wsj.com/us-news/jeffrey-epstein-birthday-album-included-letters-from-bill-clinton-leon-black-a7cd8cb1"
+            }
+        ],
+        "sources": [
+            "https://www.wsj.com/politics/trump-jeffrey-epstein-birthday-letter-we-have-certain-things-in-common-f918d796",
+            "https://www.pulitzer.org/finalists/wall-street-journal-work-led-khadeeja-safdar-and-joe-palazzolo"
+        ],
+        "tags": [
+            "Jeffrey Epstein",
+            "Ghislaine Maxwell",
+            "Donald Trump",
+            "The Wall Street Journal",
+            "Epstein Birthday Book"
+        ],
+        "type": "major"
+    }
+]

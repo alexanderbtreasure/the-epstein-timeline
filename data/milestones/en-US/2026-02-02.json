@@ -1,21 +1,23 @@
-{
-    "date": "2026-02-02 12:37 EST",
-    "description": "On January 31st, lawyers representing Bill and Hillary Clinton reached out to the House Oversight Committee agreeing to testify, but requesting various accommodations. This follows a five-month back-and-forth negotiation to get the Clintons in front of the Oversight Committee to testify.",
-    "headline": "US House Oversight Committee Majority Publicly Rejects Clinton's Offer to Testify",
-    "info": [
-        {
-            "description": "At 18:27 EST, a spokesperson for Former President Bill Clinton that Bill and Hillary Clinton will testify before the House Oversight Committee.",
-            "note": "Angel Ureña, spokesman for Former President Bill Clinton, posted a status on X indicating that Bill and Hillary Clinton will be testifying before the House Oversight Committee, and are \"look[ing] forward to setting a precedent that applies to everyone.\" This is not a dramatic departure from previous statements.",
-            "source": "https://x.com/angelurena/status/2018466236766765153"
-        }
-    ],
-    "sources": [
-        "https://x.com/GOPoversight/status/2018378201039282202"
-    ],
-    "tags": [
-        "Bill Clinton",
-        "Hillary Clinton",
-        "US House Oversight Committee"
-    ],
-    "type": "minor"
-}
+[
+    {
+        "date": "2026-02-02 12:37 EST",
+        "description": "On January 31st, lawyers representing Bill and Hillary Clinton reached out to the House Oversight Committee agreeing to testify, but requesting various accommodations. This follows a five-month back-and-forth negotiation to get the Clintons in front of the Oversight Committee to testify.",
+        "headline": "US House Oversight Committee Majority Publicly Rejects Clinton's Offer to Testify",
+        "info": [
+            {
+                "description": "At 18:27 EST, a spokesperson for Former President Bill Clinton that Bill and Hillary Clinton will testify before the House Oversight Committee.",
+                "note": "Angel Ureña, spokesman for Former President Bill Clinton, posted a status on X indicating that Bill and Hillary Clinton will be testifying before the House Oversight Committee, and are \"look[ing] forward to setting a precedent that applies to everyone.\" This is not a dramatic departure from previous statements.",
+                "source": "https://x.com/angelurena/status/2018466236766765153"
+            }
+        ],
+        "sources": [
+            "https://x.com/GOPoversight/status/2018378201039282202"
+        ],
+        "tags": [
+            "Bill Clinton",
+            "Hillary Clinton",
+            "US House Oversight Committee"
+        ],
+        "type": "minor"
+    }
+]

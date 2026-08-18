@@ -1,0 +1,42 @@
+[
+    {
+        "date": "2025-09-08",
+        "description": "The House Committee on Oversight and Government Reform published records produced by Darren Indyke and Richard Kahn, co-executors of Jeffrey Epstein's estate, under a subpoena issued by Chairman James Comer (R-KY) on August 25, 2025. The production answers four of the subpoena schedule's sixteen requests: the entries of the leather-bound book compiled by Ghislaine Maxwell for Epstein's fiftieth birthday, Epstein's last will and testament preceding August 8, 2019, the September 24, 2007 non-prosecution agreement between Epstein and the U.S. Attorney's Office for the Southern District of Florida, and entries from his address and contact books. The birthday book file runs 238 pages and contains the page bearing Donald Trump's name that The Wall Street Journal had described in July without publishing. The Committee also stated it obtained information about Epstein's bank accounts and would pursue those records.",
+        "headline": "US House Oversight Committee Releases Epstein Estate Records, Including the Birthday Album",
+        "info": [
+            {
+                "description": "Chairman James Comer (R-KY) issued a statement alongside the release.",
+                "note": "From Rep. Comer, \"It's appalling Democrats on the Oversight Committee are cherry-picking documents and politicizing information received from the Epstein Estate today. Oversight Committee Republicans are focused on running a thorough investigation to bring transparency and accountability for survivors of Epstein's heinous crimes and the American people. President Trump is not accused of any wrongdoing and Democrats are ignoring the new information the Committee received today. The Committee will pursue additional Epstein bank records based on this new information. Democrats must decide if their priority is justice for the survivors or politics.\"",
+                "source": "https://oversight.house.gov/release/oversight-committee-releases-records-provided-by-the-epstein-estate-chairman-comer-provides-statement/"
+            },
+            {
+                "description": "Ranking Member Robert Garcia (D-CA) issued a separate statement after the Committee received the book.",
+                "note": "From Rep. Garcia, \"The Oversight Committee has secured the infamous 'Birthday Book' that contains a note from President Trump that he has said does not exist. It's time for the President to tell us the truth about what he knew and release all the Epstein files.\" He added that Oversight Democrats were reviewing the book and expected to release their findings publicly.",
+                "source": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-statement-epstein-estate-turning-over-infamous"
+            },
+            {
+                "description": "White House Press Secretary Karoline Leavitt posted a denial the same day.",
+                "note": "She wrote that a follow-up analysis published by The Wall Street Journal \"PROVES this entire 'Birthday Card' story is false,\" and that \"it's very clear President Trump did not draw this picture, and he did not sign it.\"",
+                "source": "https://x.com/PressSec/status/1965146390348398627"
+            },
+            {
+                "description": "The subpoena that produced these records was issued to the estate's co-executors on August 25, 2025.",
+                "note": "Its schedule requested sixteen categories of material, including flight logs, calendars, non-disclosure agreements, property records, and \"[a]ny document or record that could be reasonably construed to be a potential list of clients.\" Those categories were not part of this production.",
+                "source": "https://oversight.house.gov/wp-content/uploads/2025/08/2025.08.25-Subpoena-and-Schedule-to-Epstein-Estate.pdf"
+            }
+        ],
+        "sources": [
+            "https://oversight.house.gov/release/oversight-committee-releases-records-provided-by-the-epstein-estate-chairman-comer-provides-statement/",
+            "https://drive.google.com/drive/folders/1ZSVpXEhI7gKI0zatJdYe6QhKJ5pjUo4b"
+        ],
+        "tags": [
+            "US House Oversight Committee",
+            "Jeffrey Epstein",
+            "Ghislaine Maxwell",
+            "Donald Trump",
+            "Karoline Leavitt",
+            "Epstein Birthday Book"
+        ],
+        "type": "major"
+    }
+]

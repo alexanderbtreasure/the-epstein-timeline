@@ -1,13 +1,15 @@
-{
-    "date": "2025-11-16 21:15 EST",
-    "description": "In a reversal following Rep. Massie's disclosure that the Epstein Files Transparency Act had enough signatures to force a vote on the floor, President Trump told Republicans to back the bill, saying that \"we have nothing to hide.\"",
-    "headline": "President Trump Calls for Republicans to Back the Epstein Files Transparency Act",
-    "sources": [
-        "https://truthsocial.com/@realDonaldTrump/posts/115562626931599548"
-    ],
-    "tags": [
-        "Donald Trump",
-        "Epstein Files Transparency Act"
-    ],
-    "type": "minor"
-}
+[
+    {
+        "date": "2025-11-16 21:15 EST",
+        "description": "In a reversal following Rep. Massie's disclosure that the Epstein Files Transparency Act had enough signatures to force a vote on the floor, President Trump told Republicans to back the bill, saying that \"we have nothing to hide.\"",
+        "headline": "President Trump Calls for Republicans to Back the Epstein Files Transparency Act",
+        "sources": [
+            "https://truthsocial.com/@realDonaldTrump/posts/115562626931599548"
+        ],
+        "tags": [
+            "Donald Trump",
+            "Epstein Files Transparency Act"
+        ],
+        "type": "minor"
+    }
+]

@@ -1,29 +1,31 @@
-{
-    "date": "2025-09-02",
-    "description": "The US House Oversight Committee heard a closed-door hearing where several victims of Jeffrey Epstein testified about their experiences and urged lawmakers to release all related files to the public.",
-    "headline": "Epstein Victims Offer Testimony in Closed-Door Oversight Committee Hearing",
-    "img": "2025-09-03.webp",
-    "info": [
-        {
-            "description": "2025-09-03: Reps. Ro Khanna (D-CA), Thomas Massie (R-KY), and Marjorie Talyor Greene (R-GA) held a press conference in the morning calling on lawmakers to sign a discharge petition that would compel the public release of all files related to the Jeffrey Epstein case.",
-            "note": "They were accompanied by victims who spoke the previous day in the closed-door hearing.",
-            "source": "https://www.c-span.org/program/news-conference/reps-khanna-and-massie-news-conference-on-the-release-of-epstein-investigation-files/665039"
-        },
-        {
-            "description": "Rep. Greene states that President Trump called her after this conference to voice his displeasure at her, and the call is corroborated by her staffers.",
-            "note": "She claims that when she pushed for Trump to explain why he was being stubborn over the files, that he offered, \"my friends will get hurt,\" as an explanation.",
-            "source": "https://archive.ph/7w9z9"
-        }
-    ],
-    "sources": [
-        "https://x.com/RepRobertGarcia/status/1962636614141870191"
-    ],
-    "tags": [
-        "US House Oversight Committee",
-        "Ro Khanna",
-        "Thomas Massie",
-        "Marjorie Taylor Greene",
-        "Donald Trump"
-    ],
-    "type": "minor"
-}
+[
+    {
+        "date": "2025-09-02",
+        "description": "The US House Oversight Committee heard a closed-door hearing where several victims of Jeffrey Epstein testified about their experiences and urged lawmakers to release all related files to the public.",
+        "headline": "Epstein Victims Offer Testimony in Closed-Door Oversight Committee Hearing",
+        "img": "2025-09-03.webp",
+        "info": [
+            {
+                "description": "2025-09-03: Reps. Ro Khanna (D-CA), Thomas Massie (R-KY), and Marjorie Talyor Greene (R-GA) held a press conference in the morning calling on lawmakers to sign a discharge petition that would compel the public release of all files related to the Jeffrey Epstein case.",
+                "note": "They were accompanied by victims who spoke the previous day in the closed-door hearing.",
+                "source": "https://www.c-span.org/program/news-conference/reps-khanna-and-massie-news-conference-on-the-release-of-epstein-investigation-files/665039"
+            },
+            {
+                "description": "Rep. Greene states that President Trump called her after this conference to voice his displeasure at her, and the call is corroborated by her staffers.",
+                "note": "She claims that when she pushed for Trump to explain why he was being stubborn over the files, that he offered, \"my friends will get hurt,\" as an explanation.",
+                "source": "https://archive.ph/7w9z9"
+            }
+        ],
+        "sources": [
+            "https://x.com/RepRobertGarcia/status/1962636614141870191"
+        ],
+        "tags": [
+            "US House Oversight Committee",
+            "Ro Khanna",
+            "Thomas Massie",
+            "Marjorie Taylor Greene",
+            "Donald Trump"
+        ],
+        "type": "minor"
+    }
+]

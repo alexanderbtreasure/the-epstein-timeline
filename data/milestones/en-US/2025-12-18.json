@@ -1,24 +1,48 @@
-{
-    "date": "2025-12-18 12:00 EST",
-    "description": "Among the files include images of business and political leaders who associated with Epstein, including Woody Allen, Steve Bannon, Noam Chomsky, and Bill Gates. Other images included redacted visa documentation of suspected victims, handwritten (onto a girl/woman, possibly a victim) passages from the controversial 1955 book \"Lolita,\" and architectural documentation for Epstein's Florida island residence. This batch of images released in advance of the following day's expected disclosure from the Department of Justice via the Epstein Files Transparency Act.",
-    "headline": "House Oversight Committee Democrats Releases Select Photos in New Epstein Estate Batch",
-    "img": "2025-12-18.webp",
-    "info": [
-        {
-            "description": "Oversight Committee Democrats released a press statement accompanying the release of the photos.",
-            "note": "They indicated that it would still take quite some time to go through all the over 95,000 images turned over to the Oversight Committee by the Epstein Estate, but that this was a measure in part to show the scope of what the Department of Justice may have in its possession.",
-            "source": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-statement-after-oversight-democrats-release"
-        }
-    ],
-    "sources": [
-        "https://www.dropbox.com/scl/fo/cl62lochkdzdalbzzqgq8/ADJIDEfLD1oQZrKmNeae2So?rlkey=y7529bx9tl7db6zf279jp3cyu&e=1&st=8o7kizhr&dl=0"
-    ],
-    "tags": [
-        "US House Oversight Committee",
-        "Woody Allen",
-        "Steve Bannon",
-        "Noam Chomsky",
-        "Bill Gates"
-    ],
-    "type": "minor"
-}
+[
+    {
+        "date": "2025-12-18 12:00 EST",
+        "description": "Among the files include images of business and political leaders who associated with Epstein, including Woody Allen, Steve Bannon, Noam Chomsky, and Bill Gates. Other images included redacted visa documentation of suspected victims, handwritten (onto a girl/woman, possibly a victim) passages from the controversial 1955 book \"Lolita,\" and architectural documentation for Epstein's Florida island residence. This batch of images released in advance of the following day's expected disclosure from the Department of Justice via the Epstein Files Transparency Act.",
+        "headline": "House Oversight Committee Democrats Releases Select Photos in New Epstein Estate Batch",
+        "img": "2025-12-18-01.webp",
+        "info": [
+            {
+                "description": "Oversight Committee Democrats released a press statement accompanying the release of the photos.",
+                "note": "They indicated that it would still take quite some time to go through all the over 95,000 images turned over to the Oversight Committee by the Epstein Estate, but that this was a measure in part to show the scope of what the Department of Justice may have in its possession.",
+                "source": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-statement-after-oversight-democrats-release"
+            }
+        ],
+        "sources": [
+            "https://www.dropbox.com/scl/fo/cl62lochkdzdalbzzqgq8/ADJIDEfLD1oQZrKmNeae2So?rlkey=y7529bx9tl7db6zf279jp3cyu&e=1&st=8o7kizhr&dl=0"
+        ],
+        "tags": [
+            "US House Oversight Committee",
+            "Woody Allen",
+            "Steve Bannon",
+            "Noam Chomsky",
+            "Bill Gates"
+        ],
+        "type": "minor"
+    },
+    {
+        "date": "2025-12-18 18:56 EST",
+        "description": "Some commentators believe that this early recess may be at least in part to avoid questions from reporters on the day of the Epstein files release.",
+        "headline": "US Federal Republicans Adjourn Sessions One Day Early",
+        "img": "2025-12-18-02.webp",
+        "info": [
+            {
+                "description": "The Senate followed the House later that day.",
+                "note": "Neither Senate nor House Republican leaders seemed to comment on the day-early recess.",
+                "source": "https://rollcall.com/2025/12/19/congress-leaves-for-christmas-closes-the-books-on-2025/"
+            }
+        ],
+        "sources": [
+            "https://x.com/AndrewSolender/status/2001441497061675466",
+            "https://www.newsweek.com/house-republicans-call-early-christmas-break-before-epstein-files-release-11234307"
+        ],
+        "tags": [
+            "US House",
+            "US Senate"
+        ],
+        "type": "minor"
+    }
+]

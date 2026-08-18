@@ -1,0 +1,29 @@
+[
+    {
+        "date": "2025-07-18",
+        "description": "President Donald Trump sued Dow Jones & Company, News Corporation, Keith Rupert Murdoch, Robert Thomson, and reporters Khadeeja Safdar and Joseph Palazzolo in the US District Court for the Southern District of Florida over the previous day's report. The complaint pleads defamation per se and defamation per quod, alleges that \"no authentic letter or drawing exists\" and that the defendants \"concocted this story to malign President Trump's character and integrity,\" and demands damages, punitive damages, and costs \"not to be less than $10 billion dollars.\" The case was docketed as Trump v. Murdoch, No. 1:25-cv-23232.",
+        "headline": "President Trump Files Defamation Suit Against Dow Jones, News Corporation, and Two Wall Street Journal Reporters",
+        "info": [
+            {
+                "description": "Dow Jones responded to the suit through a spokeswoman.",
+                "note": "She said, \"We have full confidence in the rigor and accuracy of our reporting, and will vigorously defend against any lawsuit.\"",
+                "source": "https://www.wsj.com/politics/justice-department-told-trump-name-in-epstein-files-727a8038"
+            },
+            {
+                "description": "The case was assigned to US District Judge Darrin P. Gayles, with Magistrate Judge Edwin G. Torres referred.",
+                "note": "A companion filing docketed the same day as Trump v. Dow Jones & Company, Inc., No. 1:25-cv-23229, was terminated on July 21, 2025.",
+                "source": "https://www.courtlistener.com/docket/70843413/trump-v-murdoch/"
+            }
+        ],
+        "sources": [
+            "https://storage.courtlistener.com/recap/gov.uscourts.flsd.693830/gov.uscourts.flsd.693830.1.0_3.pdf"
+        ],
+        "tags": [
+            "Donald Trump",
+            "The Wall Street Journal",
+            "Southern District Court of Florida",
+            "Epstein Birthday Book"
+        ],
+        "type": "minor"
+    }
+]
