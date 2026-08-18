@@ -1,0 +1,29 @@
+[
+    {
+        "date": "2026-04-13",
+        "description": "US District Judge Darrin P. Gayles granted in part the defendants' motion to dismiss, holding that the complaint failed to plead actual malice under the Twombly-Iqbal plausibility standard. The order characterizes the complaint's allegations that the defendants \"knew or should have known\" the article was false as \"formulaic recitations\" insufficient to state a claim, and finds that the article itself rebuts the claim that the defendants failed to investigate, because it records that the Journal sought comment from President Trump, the Justice Department, and the FBI, that it reviewed the letter, and that it published his denial. Both counts were dismissed without prejudice, with an amended complaint ordered on or before April 27, 2026.",
+        "headline": "Federal Judge Dismisses President Trump's Defamation Complaint Against Dow Jones Without Prejudice",
+        "info": [
+            {
+                "description": "The order does not reach the question of whether the letter is authentic.",
+                "note": "From the order, \"The lawsuit raises many questions of fact and law about the publication's account of events, journalistic integrity, and the First Amendment's protection of 'sometimes unpleasantly sharp attacks on government and public officials.' However, most of those questions are for another day. Today, the Court resolves the pending Motions in accordance with procedural and evidentiary rules and the well-established Twombly-Iqbal plausibility standard.\" The Court also denied the defendants' request for attorneys' fees under Florida's anti-SLAPP statute without prejudice and with leave to renew.",
+                "source": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.693830/gov.uscourts.flsd.693830.59.0_3.pdf#page=2"
+            },
+            {
+                "description": "The deadline to amend was stayed shortly after the order issued.",
+                "note": "President Trump moved on April 14, 2026 for leave to conduct limited discovery on actual malice and to extend the deadline. The Court temporarily stayed the deadline on April 23 pending briefing, and granted the motion in part on May 13, resetting the amended complaint deadline to May 27, 2026.",
+                "source": "https://www.courtlistener.com/docket/70843413/trump-v-murdoch/"
+            }
+        ],
+        "sources": [
+            "https://storage.courtlistener.com/recap/gov.uscourts.flsd.693830/gov.uscourts.flsd.693830.59.0_3.pdf"
+        ],
+        "tags": [
+            "Donald Trump",
+            "The Wall Street Journal",
+            "Southern District Court of Florida",
+            "Epstein Birthday Book"
+        ],
+        "type": "minor"
+    }
+]
