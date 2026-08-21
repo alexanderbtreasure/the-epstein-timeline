@@ -1,0 +1,29 @@
+[
+    {
+        "date": "2026-02-01",
+        "description": "Peter Mandelson resigned his membership of the Labour Party, saying he did not want to cause the party \"further embarrassment.\" The resignation followed the Department of Justice's second document release under the Epstein Files Transparency Act on January 30, 2026, in which bank documents suggest Jeffrey Epstein sent three payments totalling $75,000 to accounts linked to Mandelson or his partner, Reinaldo Avila da Silva, in 2003 and 2004. Mandelson said he did not remember receiving the money and would investigate whether the documents were authentic. He has not been charged with any offence in connection with the records.",
+        "headline": "Peter Mandelson Resigns from the Labour Party",
+        "info": [
+            {
+                "description": "2026-02-03: Mandelson announced on that he would also retire from the House of Lords, effective the following day.",
+                "note": "He had been appointed to the chamber for life in 2008. The Speaker of the Lords, Michael Forsyth, said Mandelson had informed officials he would retire effective Wednesday. The announcement came as the government prepared legislation to eject him from the Lords and remove his title; retirement alone does not remove the peerage.",
+                "source": "https://www.pbs.org/newshour/world/british-politician-peter-mandelson-quits-house-of-lords-could-face-police-investigation-over-epstein-ties"
+            },
+            {
+                "description": "The bank documents that preceded the resignation came from the Department of Justice's January 30, 2026 release.",
+                "note": "It is not established from the records that the transfers were completed or received.",
+                "source": "http://localhost:5173#2026-01-30"
+            }
+        ],
+        "sources": [
+            "https://www.npr.org/2026/02/03/g-s1-108529/epstein-files-uk-peter-mandelson"
+        ],
+        "tags": [
+            "Peter Mandelson",
+            "Jeffrey Epstein",
+            "UK Labour Party",
+            "Epstein Files Transparency Act"
+        ],
+        "type": "minor"
+    }
+]

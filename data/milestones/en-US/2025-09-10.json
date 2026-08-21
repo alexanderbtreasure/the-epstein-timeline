@@ -1,0 +1,31 @@
+[
+    {
+        "date": "2025-09-10",
+        "description": "The Sun published emails between Peter Mandelson, then the United Kingdom's ambassador to the United States, and Jeffrey Epstein, including messages sent in June 2008 while Epstein faced charges for soliciting a minor. In an accompanying interview, Mandelson acknowledged that he had continued the relationship after Epstein was charged and expressed regret for it. At Prime Minister's Questions the same day, Leader of the Opposition Kemi Badenoch asked Prime Minister Keir Starmer four times whether he retained confidence in Mandelson and whether the vetting documents from the appointment would be published. Starmer said that \"full due process was followed during this appointment, as it is with all ambassadors,\" and that he had confidence in the ambassador. Mandelson was withdrawn from the post the following day.",
+        "headline": "Prime Minister Keir Starmer Expresses Confidence in Peter Mandelson at Prime Minister's Questions",
+        "info": [
+            {
+                "description": "Starmer set out his position in response to the first of Badenoch's questions on the floor of the House of Commons.",
+                "note": "He said, \"Let me start by saying that the victims of Epstein are at the forefront of our minds. He was a despicable criminal who committed the most heinous crimes and destroyed the lives of so many women and girls. The ambassador has repeatedly expressed his deep regret for his association with Epstein, and he is right to do so. I have confidence in him, and he is playing an important role in the UK-US relationship.\" Asked whether he had known of the relationship when he made the appointment, he did not answer directly, replying that full due process had been followed.",
+                "source": "https://hansard.parliament.uk/commons/2025-09-10/debates/4153BC00-1174-4948-A73F-8E46071D926F/Engagements"
+            },
+            {
+                "description": "The Prime Minister asked the Foreign Secretary to withdraw Mandelson as ambassador the following day.",
+                "note": "The government stated that the emails published after this exchange showed the depth and extent of the relationship to be materially different from that known at the time of the appointment.",
+                "source": "http://localhost:5173#2025-09-11"
+            }
+        ],
+        "sources": [
+            "https://www.the-sun.com/news/15154621/lord-mandelson-jeffery-epstein-apology/",
+            "https://hansard.parliament.uk/commons/2025-09-10/debates/4153BC00-1174-4948-A73F-8E46071D926F/Engagements",
+            "https://www.pbs.org/newshour/world/uk-ambassador-to-u-s-under-scrutiny-over-his-links-to-best-pal-epstein"
+        ],
+        "tags": [
+            "Peter Mandelson",
+            "Jeffrey Epstein",
+            "Keir Starmer",
+            "UK Parliament"
+        ],
+        "type": "minor"
+    }
+]
