@@ -1,0 +1,30 @@
+[
+    {
+        "date": "2025-09-11",
+        "description": "Prime Minister Keir Starmer asked the Foreign Secretary to withdraw Peter Mandelson as the United Kingdom's ambassador to the United States, with immediate effect, over his relationship with Jeffrey Epstein. Mandelson had held the post since February 2025. Announcing the decision to the House of Commons, Foreign Office minister Stephen Doughty said that \"[i]n light of the additional information in the emails written by Peter Mandelson, the Prime Minister has asked the Foreign Secretary to withdraw him as ambassador to the United States,\" and that the emails showed the depth and extent of the relationship to be \"materially different from that known at the time of his appointment.\" The statement identified as new information Mandelson's suggestion that Epstein's 2008 conviction was wrongful and should be challenged. The withdrawal followed the publication of Mandelson's correspondence with Epstein by The Sun on September 10, 2025 and by Bloomberg News on September 11, 2025.",
+        "headline": "United Kingdom Withdraws Peter Mandelson as Ambassador to the United States",
+        "info": [
+            {
+                "description": "Bloomberg News published more than one hundred previously unreported emails between Mandelson and Epstein hours before the withdrawal was announced.",
+                "note": "The correspondence spans roughly 2003 to 2016. In a message sent the day before Epstein reported to jail in June 2008, Mandelson wrote, \"I think the world of you and I feel hopeless and furious about what has happened,\" and advised him, \"You have to be incredibly resilient, fight for early release and be philosophical about it as much as you can.\"",
+                "source": "https://www.bloomberg.com/features/2025-jeffrey-epstein-emails-peter-mandelson/"
+            },
+            {
+                "description": "Mandelson's entry in Jeffrey Epstein's fiftieth birthday album, published by the US House Oversight Committee three days earlier, ran to ten pages and called Epstein \"my best pal.\"",
+                "note": "The entry combines a narrative account of their friendship with photographs. It opens, \"Once upon a time, an intelligent, sharp-witted man they call 'mysterious' parachuted into my life.\"",
+                "source": "http://localhost:5173#2025-09-08"
+            }
+        ],
+        "sources": [
+            "https://hansard.parliament.uk/commons/2025-09-11/debates/E3CDBF81-900E-4676-A85A-E04C6263BD38/UKAmbassadorToTheUSAppointmentProcess",
+            "https://www.pbs.org/newshour/world/u-k-fires-ambassador-to-the-u-s-peter-mandelson-after-publication-of-supportive-emails-to-jeffrey-epstein"
+        ],
+        "tags": [
+            "Peter Mandelson",
+            "Jeffrey Epstein",
+            "Keir Starmer",
+            "UK Foreign, Commonwealth and Development Office"
+        ],
+        "type": "minor"
+    }
+]

@@ -77,6 +77,7 @@ Example sources can be found below:
 * Archived direct media (if the original has been deleted): archive.org, xcancel (other archives may also be acceptable, but check these first since they're well-known)
 * Government/government-backed neutral media: C-SPAN, PBS, NPR
 * News wires: AP News, Reuters
+* Court filings: CourtListener
 
 > [!TIP]
 > Prioritize direct sources of information over indirect. This is so visitors can click the link and immediately validate the referred item, without needing to filter that information through whatever lens the indirect source is giving. This means in particular, for Youtube, link the timestamp where the quote is referenced. No timestamp is needed if the data point is the whole video. This also includes if a potential source references, for example, an AP News report, then the AP News report should be cited directly.

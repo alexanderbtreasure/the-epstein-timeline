@@ -1,0 +1,44 @@
+[
+    {
+        "date": "2026-02-03",
+        "description": "The Metropolitan Police opened a criminal investigation into Peter Mandelson for alleged misconduct in public office arising from his relationship with Jeffrey Epstein. The force said detectives had reviewed reports of misconduct and decided they met the threshold for a full investigation. Commander Ella Marriott said the force \"has now launched an investigation into a 72-year-old man, a former government minister, for misconduct in public office offenses.\" The allegations concern emails in the Department of Justice's January 30, 2026 release in which Mandelson passed political and financial information to Epstein. Misconduct in public office carries a maximum sentence of life imprisonment.",
+        "headline": "Metropolitan Police Open Criminal Investigation into Peter Mandelson",
+        "info": [
+            {
+                "description": "The British government referred the matter to the police after assessing the documents itself.",
+                "note": "Prime Minister Keir Starmer told his Cabinet on February 3, 2026 that he was \"appalled\" by the revelations and was concerned that more details had yet to emerge. His spokesman, Tom Wells, said the government had sent police its assessment that the Mandelson-Epstein documents contained \"likely market-sensitive information\" about the 2008 global financial crisis and its aftermath that should not have been shared outside government.",
+                "source": "https://www.npr.org/2026/02/03/g-s1-108529/epstein-files-uk-peter-mandelson"
+            },
+            {
+                "description": "2026-02-05: Prime Minister Keir Starmer apologized to victims at a south England conference.",
+                "note": "Prime Minister Keir Starmer publicly apologized to the victims of Jeffrey Epstein on February 5, 2026 for appointing Peter Mandelson to his Cabinet despite Mandelson's known continued connection to Epstein following his initial charges in 2008. Starmer said, \"I am sorry. Sorry for what was done to you, sorry that so many people with power failed you, sorry for having believed Mandelson's lies and appointing him.\"",
+                "source": "https://www.reuters.com/world/uk/uks-starmer-apologises-epstein-victims-appointing-mandelson-2026-02-05/"
+            },
+            {
+                "description": "2026-02-06: Officers executed search warrants at two addresses.",
+                "note": "Deputy Assistant Commissioner Hayley Sewart said, \"I can confirm that officers from the Met's Central Specialist Crime team are in the process of carrying out search warrants at two addresses, one in the Wiltshire area, and another in the Camden area. The searches are related to an ongoing investigation into misconduct in public office offences, involving a 72-year-old man. He has not been arrested and enquiries are ongoing.\"",
+                "source": "https://news.met.police.uk/news/update-on-investigation-into-misconduct-in-public-office-offences-505940"
+            },
+            {
+                "description": "2026-02-08: British Prime Minister's chief of staff resigned.",
+                "note": "Morgan McSweeny, UK Prime Minister Kier Starmer's then-chief of staff, resigned stating, \"The decision to appoint Peter Mandelson was wrong. He has damaged our party, our country and trust in politics itself. When asked, I advised the prime minister to make that appointment and I take full responsibility for that advice.\"",
+                "source": "https://www.theguardian.com/politics/2026/feb/08/morgan-mcsweeney-resignation-speech"
+            },
+            {
+                "description": "2026-04-01: Crown Prosecution Service (CPS) advises UK Metropolitan police on investigation into Andrew Mountbatten-Windsor and Peter Mandelson links to Epstein.",
+                "note": "We can confirm that we are now providing early investigative advice to the Metropolitan police service regarding the force’s investigation into a 72-year-old man... and also confirm that we are providing early investigative advice to Thames Valley police in relation to a 66-year-old man. We remain ready to support any investigation if needed.",
+                "source": "https://www.theguardian.com/uk-news/2026/apr/01/cps-advising-uk-police-on-investigation-into-andrew-and-mandelson-links-to-epstein"
+            }
+        ],
+        "sources": [
+            "https://www.npr.org/2026/02/03/g-s1-108529/epstein-files-uk-peter-mandelson"
+        ],
+        "tags": [
+            "Peter Mandelson",
+            "Jeffrey Epstein",
+            "UK Metropolitan Police",
+            "Keir Starmer"
+        ],
+        "type": "minor"
+    }
+]
